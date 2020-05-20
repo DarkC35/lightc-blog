@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/lightc-blog",
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
