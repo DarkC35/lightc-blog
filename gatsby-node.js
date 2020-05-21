@@ -1,4 +1,5 @@
 const path = require(`path`)
+const webpack = require(`webpack`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -61,4 +62,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    plugins: [
+      new webpack.IgnorePlugin({
+        resourceRegExp: /^netlify-identity-widget$/,
+      }),
+    ],
+  })
 }
