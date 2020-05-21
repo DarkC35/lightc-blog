@@ -80,7 +80,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-        base_url: process.env.BACKEND_BASE_URL
+        base_url: process.env.BACKEND_BASE_URL,
+        enableIdentityWidget: false
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
