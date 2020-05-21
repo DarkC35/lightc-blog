@@ -7,7 +7,7 @@ import CMS from "netlify-cms-app"
 CMS.init({
   config: {
     backend: {
-      base_url: process.env.BACKEND_BASE_URL,
+      base_url: process.env.BACKEND_BASE_URL || "https://lightc-github-oauth-provider.herokuapp.com",
     },
   },
 })
