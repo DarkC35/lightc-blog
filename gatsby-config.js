@@ -80,7 +80,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-        base_url: process.env.BACKEND_BASE_URL,
+        modulePath: `${__dirname}/src/cms/cms.js`,
+        manualInit: true,
         enableIdentityWidget: false
       }
     },
