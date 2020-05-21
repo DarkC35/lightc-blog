@@ -4,6 +4,10 @@ node_js:
 cache:
   directories:
   - node_modules
+before_script:
+  - npm install -g gatsby-cli
+script:
+  - gatsby build --prefix-paths
 deploy:
   provider: pages
   skip-cleanup: true
@@ -12,8 +16,3 @@ deploy:
   keep-history: true
   on:
     branch: master
-before_script:
-  - "npm i -g gatsby"
-  - "npm i"
-script:
-  - "npm run deploy"
