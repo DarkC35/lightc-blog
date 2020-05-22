@@ -3,7 +3,7 @@ module.exports = {
     title: `DarkC's Blog`,
     author: {
       name: `Kevin Haunschmied`,
-      summary: `an Austrian Master's student with a passion for web development.`,
+      summary: `an Austrian graduate student with a passion for web development.`,
     },
     description: `Development blog for several projects.`,
     siteUrl: `https://blog.darkc.at`,
