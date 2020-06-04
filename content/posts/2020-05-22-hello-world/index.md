@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Hello World
 description: First test post
 date: 2020-05-22T08:23:22.381Z
