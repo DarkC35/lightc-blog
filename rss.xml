@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DarkC's Blog]]></title><description><![CDATA[Development blog for several projects.]]></description><link>https://blog.darkc.at</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 22 May 2020 11:25:41 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[Test post because GitHub and Gatsby do not like empty folders, so here are some cats:]]></description><link>https://blog.darkc.at/2020-05-22-hello-world/</link><guid isPermaLink="false">https://blog.darkc.at/2020-05-22-hello-world/</guid><pubDate>Fri, 22 May 2020 08:23:22 GMT</pubDate><content:encoded>&lt;p&gt;Test post because GitHub and Gatsby do not like empty folders, so here are some cats:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DarkC's Blog]]></title><description><![CDATA[Development blog for several projects.]]></description><link>https://blog.darkc.at</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 04 Jun 2020 14:31:50 GMT</lastBuildDate><item><title><![CDATA[CSS Workshop]]></title><description><![CDATA[Unser Ziel im Verlauf des CSS & UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu…]]></description><link>https://blog.darkc.at/2020-06-04-css-workshop/</link><guid isPermaLink="false">https://blog.darkc.at/2020-06-04-css-workshop/</guid><pubDate>Sun, 07 Jun 2020 08:15:00 GMT</pubDate><content:encoded>&lt;p&gt;Unser Ziel im Verlauf des CSS &amp;#x26; UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu bringen.&lt;/p&gt;
+&lt;h2&gt;Identifizierte Probleme&lt;/h2&gt;
+&lt;p&gt;Während der Analyse unserer App hinsichtlich der UI-Prinzipien, sind folgende Probleme aufgetaucht:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zu geringe Kontraste im Dark/Light Mode&lt;/li&gt;
+&lt;li&gt;Fehlende Zurück Buttons&lt;/li&gt;
+&lt;li&gt;Fehlendes Mockup für Layout&lt;/li&gt;
+&lt;li&gt;Rückmeldungen zu “Serveranfragen” (speichern, löschen) fehlen&lt;/li&gt;
+&lt;li&gt;Inkonsistentes Styling von Formularen&lt;/li&gt;
+&lt;li&gt;Klickbare Elemente teilweise nicht ersichtlich&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Durch den CSS- &amp;#x26; UI- Workshops wurden Lösungen für die Probleme bezüglich Kontrast, Klickbare Elemente und Mockup erarbeitet.&lt;/p&gt;
+&lt;h2&gt;Vorher-Nachher-Studie&lt;/h2&gt;
+&lt;h3&gt;Ausreichende Kontraste Dark/Light Mode&lt;/h3&gt;
+&lt;p&gt;Unsere Analyse ergab, dass die aktuell verwendeten Farben nicht ausreichenden Kontrast bieten. Im Light Mode ist der Kontrast unserer Primärfarbe zu dem hellen Hintergrund nicht ausreichend, im Dark Mode war der Unterschied zwischen weißer Schrift und unserer Primärfarbe zu gering.&lt;/p&gt;
+&lt;p&gt;Unsere vorherige Kontrastprobleme:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMAGES&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;Um die Kontraste in unserer App für den &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/?fcolor=FFFFFF&amp;#x26;bcolor=121212&amp;#x26;lcolor=80CBC4&quot;&gt;Dark&lt;/a&gt; und &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/?fcolor=000000&amp;#x26;bcolor=FFFFFF&amp;#x26;lcolor=80CBC4&quot;&gt;Light&lt;/a&gt; Mode zu verbessern, wurde im ersten Schritt mit einem &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/&quot;&gt;Link-Contrast-Checker&lt;/a&gt; die Benutzerfreundlichkeit und Zugänglichkeit unserer Farben für den Dark und Light Mode bewertet: &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3569e9146aa1868df9f6f2fa0f7471c4/46435/linkcontrastchecker_before.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.675675675675674%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABIElEQVQY012PzW+CUBDE+f+vnmpqtY0nuTVNT/bizaOtJB7QUmj5RuTxgIcgvwK9dTeTzGZnZrOaY9scw4AGkEKglGIoWZQYhoHneePsOA5m4JNWFYHvs91ucV2XIAhGzbVp6boOLYwi7DRlvdmwXC5ZrVY8v7yyeBq4jpRyDIzihJ9LRtHciKNzf+AbIfKex1zSC1XdjDptMNzahsf5nMlkwv1izuxhxnR6h67rdH03/T4RCbIU+KmHFVtUt5q0vCDKjKqtqJqSvM7RDtYBN/awwy+s5JP/JWrRv5liOiZu4rE3P9if3slVPgYMEEqMyFSGZnwauJHL7rRjvX8jzmLO5Zlz8YfBEMoQJ3BQV8XROY7aoiqo2xrVqBEDl7XkF675cPkg1SzFAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Bild von Link-Contrast-Checker Ergebnis mit alten Farben&quot;
+        title=&quot;Ergebnis alter Farben mit Link-Contrast-Checker&quot;
+        src=&quot;/static/3569e9146aa1868df9f6f2fa0f7471c4/fcda8/linkcontrastchecker_before.png&quot;
+        srcset=&quot;/static/3569e9146aa1868df9f6f2fa0f7471c4/12f09/linkcontrastchecker_before.png 148w,
+/static/3569e9146aa1868df9f6f2fa0f7471c4/e4a3f/linkcontrastchecker_before.png 295w,
+/static/3569e9146aa1868df9f6f2fa0f7471c4/fcda8/linkcontrastchecker_before.png 590w,
+/static/3569e9146aa1868df9f6f2fa0f7471c4/efc66/linkcontrastchecker_before.png 885w,
+/static/3569e9146aa1868df9f6f2fa0f7471c4/c83ae/linkcontrastchecker_before.png 1180w,
+/static/3569e9146aa1868df9f6f2fa0f7471c4/46435/linkcontrastchecker_before.png 1885w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Da wir keine einheitliche Primärfarbe für Light und Dark Mode finden konnte, welche ausreichend Kontrast in beiden Modis gewährleistet, haben wir uns für eine Primärfarbe je Modi entschieden. Auf Basis des Link-Contrast-Checker wählten wir ähnliche Farbe, einen dunkleren Wert des ursprünglichen Farb Bereichs für den Light Mode und einen helleren Wert für den Dark Mode, aus, die für die Lesbarkeit besser geeignet sind:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMAGES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Die Farben in unserer App wurden anschließend mit den neue Farben ausgetauscht. Dafür wurden die Variablen für die Primary Color für den Dark und Light Mode ausgetauscht und mit den &lt;a href=&quot;https://ionicframework.com/docs/theming/colors&quot;&gt;Ionic Color Generator&lt;/a&gt; die Farbabwandlungen neu generiert:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;:root&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #28776F&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-rgb&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 40&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;119&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;111&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-contrast&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #ffffff&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-contrast-rgb&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 255&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 255&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 255&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-shade&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #236962&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-tint&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #3e857d&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;body.dark&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #80CBC4&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-rgb&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 128&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;203&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;196&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-contrast&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #000000&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-contrast-rgb&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-shade&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #71b3ac&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;--ion-color-primary-tint&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #8dd0ca&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Die Primary Color wurde dann für die Elemente mit schlechten Kontrast verwendet:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IonChip&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;primary&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IonLabel&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;category&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IonLabel&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IonChip&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Nachdem die Farben in unsere App angepasst wurden, wurde der Kontrast deutlich verbessert:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMAGES&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Test post because GitHub and Gatsby do not like empty folders, so here are some cats:]]></description><link>https://blog.darkc.at/2020-05-22-hello-world/</link><guid isPermaLink="false">https://blog.darkc.at/2020-05-22-hello-world/</guid><pubDate>Fri, 22 May 2020 08:23:22 GMT</pubDate><content:encoded>&lt;p&gt;Test post because GitHub and Gatsby do not like empty folders, so here are some cats:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
