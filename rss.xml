@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DarkC's Blog]]></title><description><![CDATA[Development blog for several projects.]]></description><link>https://blog.darkc.at</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 04 Jun 2020 14:31:50 GMT</lastBuildDate><item><title><![CDATA[CSS Workshop]]></title><description><![CDATA[Unser Ziel im Verlauf des CSS & UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu…]]></description><link>https://blog.darkc.at/2020-06-04-css-workshop/</link><guid isPermaLink="false">https://blog.darkc.at/2020-06-04-css-workshop/</guid><pubDate>Sun, 07 Jun 2020 08:15:00 GMT</pubDate><content:encoded>&lt;p&gt;Unser Ziel im Verlauf des CSS &amp;#x26; UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu bringen.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DarkC's Blog]]></title><description><![CDATA[Development blog for several projects.]]></description><link>https://blog.darkc.at</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 05 Jun 2020 14:07:13 GMT</lastBuildDate><item><title><![CDATA[CSS- & UI-Workshop]]></title><description><![CDATA[Unser Ziel im Verlauf des CSS & UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu…]]></description><link>https://blog.darkc.at/2020-06-04-css-ui-workshop/</link><guid isPermaLink="false">https://blog.darkc.at/2020-06-04-css-ui-workshop/</guid><pubDate>Thu, 04 Jun 2020 08:15:00 GMT</pubDate><content:encoded>&lt;p&gt;Unser Ziel im Verlauf des CSS &amp;#x26; UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu bringen.&lt;/p&gt;
 &lt;h2&gt;Identifizierte Probleme&lt;/h2&gt;
 &lt;p&gt;Während der Analyse unserer App hinsichtlich der UI-Prinzipien, sind folgende Probleme aufgetaucht:&lt;/p&gt;
 &lt;ul&gt;
@@ -9,12 +9,139 @@
 &lt;li&gt;Inkonsistentes Styling von Formularen&lt;/li&gt;
 &lt;li&gt;Klickbare Elemente teilweise nicht ersichtlich&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Durch den CSS- &amp;#x26; UI- Workshops wurden Lösungen für die Probleme bezüglich Kontrast, Klickbare Elemente und Mockup erarbeitet.&lt;/p&gt;
+&lt;p&gt;Durch den CSS- &amp;#x26; UI- Workshops wurden Lösungen für die Probleme bezüglich Kontrast, Klickbare Elemente und Mockup erarbeitet und eine Vorher-Nachher Vergleich erstellt.&lt;/p&gt;
 &lt;h2&gt;Vorher-Nachher-Studie&lt;/h2&gt;
+&lt;p&gt;Im Zuge des CSS-Workshops nahmen wir gezielt drei Issues aus unserem Issue Board in Angriff.
+In den folgenden Abschnitten wird näher darauf eingegangen, wie wir die Probleme gelöst haben, welche visuellen Verbesserungen im Vergleich zu vorher erreicht wurden und welche Lösungswege wir dahingehend angestrebt haben.&lt;/p&gt;
 &lt;h3&gt;Ausreichende Kontraste Dark/Light Mode&lt;/h3&gt;
 &lt;p&gt;Unsere Analyse ergab, dass die aktuell verwendeten Farben nicht ausreichenden Kontrast bieten. Im Light Mode ist der Kontrast unserer Primärfarbe zu dem hellen Hintergrund nicht ausreichend, im Dark Mode war der Unterschied zwischen weißer Schrift und unserer Primärfarbe zu gering.&lt;/p&gt;
 &lt;p&gt;Unsere vorherige Kontrastprobleme:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;IMAGES&lt;/strong&gt; &lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 332px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/aaa4cd4039fefc6749592a35b435fd16/f8dc5/contrast_details_before_light.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABe0lEQVQ4y61T71OCQBS8//8/qi99yJpMzR+lhSIIwnGiIgEKCsf2wGy0rJzszey843Gzs/tYWJZl2FVxllKW/a9gBZFpmhBClKR5nuOcKgk553Bd94PwC2R+fH4EDP9Q+65YGEWI3hEEAVarFTzPA7ctGGMD8+kMY9Mu5zFB1zQ4gpfPYRiWO98nZVw46D520XpooPPUwV21iptKBcPhANV6cb7G5cUVmq0mHD5Bo17D/f0tWq029RqCMDokPGrhHMs+2VOUZ/ReFGiqCo9sW+ErtMUcfhJjTVFwlyFERPPgFcvN5tPHO5TA1us14jje7oh6mqbl6yyXkHQ7JcKCNKF50XdqvosXEw7tsNuDbozQ7ytQNRUKqbUtC/pIx/NLD5Y1hszkzt+PWWUf8t8HkpQVqlOylpGqAvuqflUYBCFmsxkW3gK+71MUthEa2TZMCvyI27AcjiRJTvqTWJE9wzChD4dlxoSYwJ1O0ST7bbWPjjpAl7CMopMI3wC/Y+/ZHIXH1wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kontrastproblem Detailansicht Light-Mode&quot;
+        title=&quot;Kontrastproblem mit alten Farben (hell)&quot;
+        src=&quot;/static/aaa4cd4039fefc6749592a35b435fd16/f8dc5/contrast_details_before_light.png&quot;
+        srcset=&quot;/static/aaa4cd4039fefc6749592a35b435fd16/12f09/contrast_details_before_light.png 148w,
+/static/aaa4cd4039fefc6749592a35b435fd16/e4a3f/contrast_details_before_light.png 295w,
+/static/aaa4cd4039fefc6749592a35b435fd16/f8dc5/contrast_details_before_light.png 332w&quot;
+        sizes=&quot;(max-width: 332px) 100vw, 332px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 338px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e454e89934064bd3a003e30995190f1c/2b41d/contrast_details_before_dark.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB2klEQVQ4y6WTbXOaQBSF/awoIhADCBhbfAFBYn1pgk0aUYlOnBqddlJNm///K07ubtUaM5PpNB/u7O7s5bnnXO6mCoUCstksRFGEJEnvjlQul0Oj0YBlWRzKCrwnUkxdGIaoVqv/BXylMJ/PI51OQxAyHMiCqWaFsoLwZ922hAXbs/vdWZL+grlCm6yWbRu2XaawUSqVSK2DViuA7/toek34rgfdMGBRTqfThuM4MIwSTNMkiLSHcWAYBJiMEywW95jP5/i+WmK1vMdgEOFh84jNryf8Xq8xvbtDi3I3j2ssVyssvi0wvU0gH6jjQJEsc/nMJsXukrWCWRYoMtuV5QnCyxbs8veW6w0XCVUaj2KuKmy3ePWfPx64tRr9rOFNjEkyxjgZwdB15A8UFY4VarrGe2HbFo2OiWLxBKqqQtd02p/CoJ5apsXHStM0yLL8AiAdwVPtXg+z2RRX0QCTOEYcjzCKv6Lb69I+xu1shqDpkc0Mb8OxxVdzKG5HgI9CTqSPJBRPSCUpUWUFCo2FdAB6C8aBTr2G9qcOvZY6XM+F87GCs0oF55cXCEjleRTBpfFRFOVN0B5Y/lBBv/8Z19dXiL5ECHwPNXqKF0mC/vAG/XiIsNuF+o/AZ52FWsRwYwIuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kontrastproblem Detailansicht Dark-Mode&quot;
+        title=&quot;Kontrastproblem mit alten Farben (dunkel)&quot;
+        src=&quot;/static/e454e89934064bd3a003e30995190f1c/2b41d/contrast_details_before_dark.png&quot;
+        srcset=&quot;/static/e454e89934064bd3a003e30995190f1c/12f09/contrast_details_before_dark.png 148w,
+/static/e454e89934064bd3a003e30995190f1c/e4a3f/contrast_details_before_dark.png 295w,
+/static/e454e89934064bd3a003e30995190f1c/2b41d/contrast_details_before_dark.png 338w&quot;
+        sizes=&quot;(max-width: 338px) 100vw, 338px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8aab652ff3271fca890135eeb087a8c2/f8067/contrast_chip_before_light.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAZElEQVQY04WN2wqAIBAF/f+vDKJaTMi84BVPKdFT2oF525llpRR8URdCgDEGKSU45xo5Z/ScCqtiL6iUAm0E7z3ELsA5R4wRPecNjnZqjWldMBMhPLHRWP0+Qt3BQ8qGtRZ/9xdwGzpFjLWg/gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kontrastproblem Liste Light-Mode&quot;
+        title=&quot;Kontrastproblem mit alten Farben (hell)&quot;
+        src=&quot;/static/8aab652ff3271fca890135eeb087a8c2/fcda8/contrast_chip_before_light.png&quot;
+        srcset=&quot;/static/8aab652ff3271fca890135eeb087a8c2/12f09/contrast_chip_before_light.png 148w,
+/static/8aab652ff3271fca890135eeb087a8c2/e4a3f/contrast_chip_before_light.png 295w,
+/static/8aab652ff3271fca890135eeb087a8c2/fcda8/contrast_chip_before_light.png 590w,
+/static/8aab652ff3271fca890135eeb087a8c2/f8067/contrast_chip_before_light.png 726w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fa16a93bbf0de0bfb225535750948a16/d0cc0/contrast_chip_before_dark.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.91891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAfklEQVQY032QywrCMBBF8xNNJu8KCiKBtDZb/f+/OqZ1J42LA8Nwz4UZpbVwxqQNMc2kjnWhzxkf4rEfOpNGOZ9xPv2QERtZlkatG7frnfXZeJTayyNjJ+yFiREintKL2utNWbdD+Ju3HqWN5RzBiCX0U9N8IcSMGWa/7O/4AJ0jadEluf+6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kontrastproblem Liste Dark-Mode&quot;
+        title=&quot;Kontrastproblem mit alten Farben (dunkel)&quot;
+        src=&quot;/static/fa16a93bbf0de0bfb225535750948a16/fcda8/contrast_chip_before_dark.png&quot;
+        srcset=&quot;/static/fa16a93bbf0de0bfb225535750948a16/12f09/contrast_chip_before_dark.png 148w,
+/static/fa16a93bbf0de0bfb225535750948a16/e4a3f/contrast_chip_before_dark.png 295w,
+/static/fa16a93bbf0de0bfb225535750948a16/fcda8/contrast_chip_before_dark.png 590w,
+/static/fa16a93bbf0de0bfb225535750948a16/d0cc0/contrast_chip_before_dark.png 732w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Um die Kontraste in unserer App für den &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/?fcolor=FFFFFF&amp;#x26;bcolor=121212&amp;#x26;lcolor=80CBC4&quot;&gt;Dark&lt;/a&gt; und &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/?fcolor=000000&amp;#x26;bcolor=FFFFFF&amp;#x26;lcolor=80CBC4&quot;&gt;Light&lt;/a&gt; Mode zu verbessern, wurde im ersten Schritt mit einem &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/&quot;&gt;Link-Contrast-Checker&lt;/a&gt; die Benutzerfreundlichkeit und Zugänglichkeit unserer Farben für den Dark und Light Mode bewertet: &lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -22,34 +149,65 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3569e9146aa1868df9f6f2fa0f7471c4/46435/linkcontrastchecker_before.png&quot;
+    href=&quot;/static/d8a8ff150fb936caa5ed251cf46e2eb6/9b1e2/linkcontrastchecker_before.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 25.675675675675674%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABIElEQVQY012PzW+CUBDE+f+vnmpqtY0nuTVNT/bizaOtJB7QUmj5RuTxgIcgvwK9dTeTzGZnZrOaY9scw4AGkEKglGIoWZQYhoHneePsOA5m4JNWFYHvs91ucV2XIAhGzbVp6boOLYwi7DRlvdmwXC5ZrVY8v7yyeBq4jpRyDIzihJ9LRtHciKNzf+AbIfKex1zSC1XdjDptMNzahsf5nMlkwv1izuxhxnR6h67rdH03/T4RCbIU+KmHFVtUt5q0vCDKjKqtqJqSvM7RDtYBN/awwy+s5JP/JWrRv5liOiZu4rE3P9if3slVPgYMEEqMyFSGZnwauJHL7rRjvX8jzmLO5Zlz8YfBEMoQJ3BQV8XROY7aoiqo2xrVqBEDl7XkF675cPkg1SzFAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 25.675675675675674%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABJklEQVQY012NO0/DQBCE/f9bKCAkIES6xA1CNFBQpyIKEUI4gInlRxy/7hzfnR38YZuOWX3S7Go0a223WzbxjiMghcAYQy9ZlqzXa8IwHHavyzlRRK4VQRCwWCzwfZ+ouwVhQN00tG2LFSd73DTj4emJ6XTKbDbj9u6eq+sbbNum7Ir74D5J8PKCqvkh3nXe8xBCEscxeZajTTM8tpRSHOua8cWI05MTRpcTxpMx52dnzO05bTd1U5PKhEMliLIAd++iWkNeFRQd6qhQTYU0EuvNfSNMQ9zI5Sv55L+EEWRVhvP9TpCErJwVLx8rpJZDQY/QYqDQBdar+4q/93nePPP48kgiEtIqJT380RdGMsLbeehas9k6LD+XHNQBczToRg/0vjQlv7gEcQFea80FAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Bild von Link-Contrast-Checker Ergebnis mit alten Farben&quot;
+        alt=&quot;Link-Contrast-Checker Ergebnis mit alten Farben&quot;
         title=&quot;Ergebnis alter Farben mit Link-Contrast-Checker&quot;
-        src=&quot;/static/3569e9146aa1868df9f6f2fa0f7471c4/fcda8/linkcontrastchecker_before.png&quot;
-        srcset=&quot;/static/3569e9146aa1868df9f6f2fa0f7471c4/12f09/linkcontrastchecker_before.png 148w,
-/static/3569e9146aa1868df9f6f2fa0f7471c4/e4a3f/linkcontrastchecker_before.png 295w,
-/static/3569e9146aa1868df9f6f2fa0f7471c4/fcda8/linkcontrastchecker_before.png 590w,
-/static/3569e9146aa1868df9f6f2fa0f7471c4/efc66/linkcontrastchecker_before.png 885w,
-/static/3569e9146aa1868df9f6f2fa0f7471c4/c83ae/linkcontrastchecker_before.png 1180w,
-/static/3569e9146aa1868df9f6f2fa0f7471c4/46435/linkcontrastchecker_before.png 1885w&quot;
+        src=&quot;/static/d8a8ff150fb936caa5ed251cf46e2eb6/fcda8/linkcontrastchecker_before.png&quot;
+        srcset=&quot;/static/d8a8ff150fb936caa5ed251cf46e2eb6/12f09/linkcontrastchecker_before.png 148w,
+/static/d8a8ff150fb936caa5ed251cf46e2eb6/e4a3f/linkcontrastchecker_before.png 295w,
+/static/d8a8ff150fb936caa5ed251cf46e2eb6/fcda8/linkcontrastchecker_before.png 590w,
+/static/d8a8ff150fb936caa5ed251cf46e2eb6/efc66/linkcontrastchecker_before.png 885w,
+/static/d8a8ff150fb936caa5ed251cf46e2eb6/c83ae/linkcontrastchecker_before.png 1180w,
+/static/d8a8ff150fb936caa5ed251cf46e2eb6/9b1e2/linkcontrastchecker_before.png 1880w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Da wir keine einheitliche Primärfarbe für Light und Dark Mode finden konnte, welche ausreichend Kontrast in beiden Modis gewährleistet, haben wir uns für eine Primärfarbe je Modi entschieden. Auf Basis des Link-Contrast-Checker wählten wir ähnliche Farbe, einen dunkleren Wert des ursprünglichen Farb Bereichs für den Light Mode und einen helleren Wert für den Dark Mode, aus, die für die Lesbarkeit besser geeignet sind:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;IMAGES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Da wir keine einheitliche Primärfarbe für Light und Dark Mode finden konnte, welche ausreichend Kontrast in beiden Modis gewährleistet, haben wir uns für eine Primärfarbe je Modi entschieden. Auf Basis des Link-Contrast-Checker wählten wir ähnliche Farbe, einen &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/?fcolor=FFFFFF&amp;#x26;bcolor=121212&amp;#x26;lcolor=31948A&quot;&gt;dunkleren&lt;/a&gt; Wert des ursprünglichen Farbbereichs für den Light Mode und einen &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/?fcolor=000000&amp;#x26;bcolor=FFFFFF&amp;#x26;lcolor=28776F&quot;&gt;helleren&lt;/a&gt; Wert für den Dark Mode, aus, die für die Lesbarkeit besser geeignet sind:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4b50dcdf510ce57c59f673be8bd575b8/064b2/linkcontrastchecker_after.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.675675675675674%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABNElEQVQY0x2PSUvEQBCF89/1riDuuDKCelDwJoziLSdlIi4DbiTOdJZJ7HTSnU1mPtvU41H1Ho+iyvF9H+87oGJBWSiapuG/tDF4nocIRa+DIOD+/Y3EZoQQuK5LGIaWotdt1zFfLHAymRNYXg9vOD44YnBywsXlFbt7h5ydntO1Xb9wlkm+ba6bL0iSH6ZTgdGGdJairN+2v9h9OJGMKEzO6tYKSyvLbOxvW26yvrPG4HxAPa/J65zwR6Cbgkk64Sv5QrUlaZkhjcT8GnRXUlrPGX2OELmwbz/yED0wt2gsWovKItYxk2KC9+kxlVPcscvwecjMzEhMQmxiIh31uf/ujP0xcZYweh9x+3SLLCSqVuRVjqoUpjNkVcqH+KCsS179V+5e7pCltFfp/ird6n5WjeIP/uZtE48yVKAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Link-Contrast-Checker Ergebnis mit neuen Farben&quot;
+        title=&quot;Ergebnis neuer Farben mit Link-Contrast-Checker&quot;
+        src=&quot;/static/4b50dcdf510ce57c59f673be8bd575b8/fcda8/linkcontrastchecker_after.png&quot;
+        srcset=&quot;/static/4b50dcdf510ce57c59f673be8bd575b8/12f09/linkcontrastchecker_after.png 148w,
+/static/4b50dcdf510ce57c59f673be8bd575b8/e4a3f/linkcontrastchecker_after.png 295w,
+/static/4b50dcdf510ce57c59f673be8bd575b8/fcda8/linkcontrastchecker_after.png 590w,
+/static/4b50dcdf510ce57c59f673be8bd575b8/efc66/linkcontrastchecker_after.png 885w,
+/static/4b50dcdf510ce57c59f673be8bd575b8/c83ae/linkcontrastchecker_after.png 1180w,
+/static/4b50dcdf510ce57c59f673be8bd575b8/064b2/linkcontrastchecker_after.png 1874w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Die Farben in unserer App wurden anschließend mit den neue Farben ausgetauscht. Dafür wurden die Variablen für die Primary Color für den Dark und Light Mode ausgetauscht und mit den &lt;a href=&quot;https://ionicframework.com/docs/theming/colors&quot;&gt;Ionic Color Generator&lt;/a&gt; die Farbabwandlungen neu generiert:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;:root&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token property&quot;&gt;--ion-color-primary&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #28776F&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -72,8 +230,450 @@
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IonChip&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;primary&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
     &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IonLabel&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;category&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IonLabel&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IonChip&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Nachdem die Farben in unsere App angepasst wurden, wurde der Kontrast deutlich verbessert:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;IMAGES&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Test post because GitHub and Gatsby do not like empty folders, so here are some cats:]]></description><link>https://blog.darkc.at/2020-05-22-hello-world/</link><guid isPermaLink="false">https://blog.darkc.at/2020-05-22-hello-world/</guid><pubDate>Fri, 22 May 2020 08:23:22 GMT</pubDate><content:encoded>&lt;p&gt;Test post because GitHub and Gatsby do not like empty folders, so here are some cats:&lt;/p&gt;
+&lt;p&gt;Durch die Anpassung der Farben in unsere App, wurde der Kontrast deutlich verbessert:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 331px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4cb532ff2d8ba811cd1cb1f06b04a68d/62452/contrast_details_after_light.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.21621621621621%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABeklEQVQ4y61TaW+CQBDl//+mfmnSC6xVEMSDVpSjHMuhUREUXgesBFuibdpJHjvMsm92Zh4cyCRJgud5pYuiKPAX48pHSZYkSU14RI689ouz+NcYnap9Dv9gzaq4eLVEGIYIgwCMEMcxmO9DGysYv85gWw4W+rz6ptzTJioMy0YcRWAsqMlOK2e/21CVIbrPXfREEYOBBLHfh66NcM8L4IUuhMdH8HyHEjHI0guehA4URUav10ea7c8J85x6RThZ2bcky5A1Yr8q2XNdiLKE8UiF/jaD4Vi4pfcbsYeZ64DFIYTpBA/DAe6GMqLN5pg4zxtDadxwu91iv99XyLKUkJ3y4nA4IN3tqniSpt8Ot8pmOtWgDFVo2gRjGoSsqhgRbNuCSrceKAoNxjyT1CXSVtnkLf1rEhWXCBljsEy7kopPiEgOKZXvRSGC5RJOwLBcr3H4THLtT+JKAtOwsJjrtJoISIs76qNBA7GYDzcMEK1WPye8JoO2ki/ZB1677wv1zIvbAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kontrast Detailansicht Light-Mode&quot;
+        title=&quot;Kontrast mit neuen Farben (hell)&quot;
+        src=&quot;/static/4cb532ff2d8ba811cd1cb1f06b04a68d/62452/contrast_details_after_light.png&quot;
+        srcset=&quot;/static/4cb532ff2d8ba811cd1cb1f06b04a68d/12f09/contrast_details_after_light.png 148w,
+/static/4cb532ff2d8ba811cd1cb1f06b04a68d/e4a3f/contrast_details_after_light.png 295w,
+/static/4cb532ff2d8ba811cd1cb1f06b04a68d/62452/contrast_details_after_light.png 331w&quot;
+        sizes=&quot;(max-width: 331px) 100vw, 331px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 333px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/30da696549a5bdba74a78c5f2f2b18c3/24c7e/contrast_details_after_dark.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.21621621621621%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB5ElEQVQ4y6VSaXOiQBDls3ghoHKlKhDAI0KtISTGYze7HigkEddU/v8vedszFpZukq2tyoeume6ZefPe6xYajQbK5TJqtRrYXpKkL4VQqVQwGo3gOA6q1SoH/UoIjFmn04Gu6/yH4kCWZR7F/rR+CvCOYb1eR6lUgiiKYGwZS7YyG1gU++MZr1d4zuIALB3JCM6lDc/14LoufM/DJeXdbheT2Qz3cYQwCBHdRNwS58rFlOrBoM9z9ubA7ERyMAjx6+ccef6CdLNBmmZ42qzxMB5jv99RPcfr6xvy7ZY+6mGTpfi922K5SpClKVRFPrNKYJ4oikJdrpOcCiSWaxoaTZVLqtFlLr8kok4PmOeF3EJy4R8HvCZJT9kai9US36dT9KII0T7H3dsO9rcQFrEKkwWGL88YPmfQLixI5HvRnFN2HNC0LGjEyKAum4YBXWujwTpMrJvNJgzLhGaaaFHIqvohyBngeDZFkqzw+OMRyTLBejXHfLFAFN1QvsQmXSMaDskO8QzsM1ChTONSjMhhPKpQiYki0wXmDXnGRuvv2fuUYfe6j9vbGIMgwCAc0JD7UFSS6l5Bt21Yvoc2yWae/QvoCOj6Pu7iGA+TCeL7CH36QG21cNHrwaQ5MxwbbWqErPwf4B+k6VjIcxiDegAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kontrast Detailansicht Dark-Mode&quot;
+        title=&quot;Kontrast mit neuen Farben (dunkel)&quot;
+        src=&quot;/static/30da696549a5bdba74a78c5f2f2b18c3/24c7e/contrast_details_after_dark.png&quot;
+        srcset=&quot;/static/30da696549a5bdba74a78c5f2f2b18c3/12f09/contrast_details_after_dark.png 148w,
+/static/30da696549a5bdba74a78c5f2f2b18c3/e4a3f/contrast_details_after_dark.png 295w,
+/static/30da696549a5bdba74a78c5f2f2b18c3/24c7e/contrast_details_after_dark.png 333w&quot;
+        sizes=&quot;(max-width: 333px) 100vw, 333px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b06a1885b9c47b35a1e4fd5b33766e79/6e9ba/contrast_chip_after_light.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.243243243243242%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAZElEQVQY04WOSRKAIAwE+f8/FU6oxSKbtJGz4lT1JZmZRPXeeQWoteK9p5RCzokY45jxlRGU5F4Xj04pWJZ1FB37jjGGMyVmmVE4U7ka2lr0Zsmt/dlRSS7OCCFwODcI8umf/wadZzqtGbNaFwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kontrast Liste Light-Mode&quot;
+        title=&quot;Kontrast mit neuen Farben (hell)&quot;
+        src=&quot;/static/b06a1885b9c47b35a1e4fd5b33766e79/fcda8/contrast_chip_after_light.png&quot;
+        srcset=&quot;/static/b06a1885b9c47b35a1e4fd5b33766e79/12f09/contrast_chip_after_light.png 148w,
+/static/b06a1885b9c47b35a1e4fd5b33766e79/e4a3f/contrast_chip_after_light.png 295w,
+/static/b06a1885b9c47b35a1e4fd5b33766e79/fcda8/contrast_chip_after_light.png 590w,
+/static/b06a1885b9c47b35a1e4fd5b33766e79/6e9ba/contrast_chip_after_light.png 731w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ad6779f220879e7f48e634f88c902a6f/e9beb/contrast_chip_after_dark.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.243243243243242%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAgElEQVQY032P0QrCMAxF+xO2TdM2G9kUhOJQJ/7/j12zvQlbHw55yD03xPlAOOLiI5grVGebBaUKZBhBxPC2O/NcYkEy8R9BpIz5ese6fjHpDa0teL0/VqqgVA4cI8tWWHFGiAweFdPyhLYHqAz7oZ7jQkzoQfZuKrJDKaOfZ/wAvltp5ONOAnEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Kontrast Liste Dark-Mode&quot;
+        title=&quot;Kontrast mit neuen Farben (dunkel)&quot;
+        src=&quot;/static/ad6779f220879e7f48e634f88c902a6f/fcda8/contrast_chip_after_dark.png&quot;
+        srcset=&quot;/static/ad6779f220879e7f48e634f88c902a6f/12f09/contrast_chip_after_dark.png 148w,
+/static/ad6779f220879e7f48e634f88c902a6f/e4a3f/contrast_chip_after_dark.png 295w,
+/static/ad6779f220879e7f48e634f88c902a6f/fcda8/contrast_chip_after_dark.png 590w,
+/static/ad6779f220879e7f48e634f88c902a6f/e9beb/contrast_chip_after_dark.png 730w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Hervorhebung von klickbaren Elementen&lt;/h3&gt;
+&lt;p&gt;Ein weiteres Problem, welches aufgetaucht ist, stellt die unzureichende Erkennung der Call-To-Action Elemente dar:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 335px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e440273a3cdc9db79e0b1c6ecd76f56c/c0051/clickable_link_before_dark.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 34.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABaklEQVQoz32Ry07CQBSGWXNtCy3QlkttC9LSy7RgwQVRYwQJBkkquhBjIvL+b/B7OhqiLFxMTmbOyTffP5OTZRmCIKBUKvFVLBb5XlVV1OsKqtUq6kqdn4uihEajAblWQ/FnXhBESJJEve+aG8cx5ncLbDYbrB/XeFitsH1Kcb9cYn84YLfb4f31DdvnFzAWY7tNsf/8wHy+QJqmMDodVCoVDuPAzDCz6VCj1WrB6HZ5LVfK0HQdpmlC0zQYhgGRzJtNFaZloktzPduGoihHOw607B6m0wmiiMH3hrD6fdzeXGNJBrZpUcQmWBDAdYdIJgmB2igUCtyKRxZPIutk4fs+PM+DMziHqmsYEJQFIbodA7WaTBf5SJIEF8kY7Xbrj9FvGAey0QijUYTQDxCzCJdk4Q7JlGIFZDa7msF1HLLKI58vHN/rFHoEnlkW4jgiOwcegRgLwSi+6wzAwpB6MWyayYazH/8Plq0vD7HEeqHP6YwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Fehlende Link-Hervorhebung&quot;
+        title=&quot;Fehlende Hervorheben für die Verlinkung zur Anbieterseite im Dark-Mode&quot;
+        src=&quot;/static/e440273a3cdc9db79e0b1c6ecd76f56c/c0051/clickable_link_before_dark.png&quot;
+        srcset=&quot;/static/e440273a3cdc9db79e0b1c6ecd76f56c/12f09/clickable_link_before_dark.png 148w,
+/static/e440273a3cdc9db79e0b1c6ecd76f56c/e4a3f/clickable_link_before_dark.png 295w,
+/static/e440273a3cdc9db79e0b1c6ecd76f56c/c0051/clickable_link_before_dark.png 335w&quot;
+        sizes=&quot;(max-width: 335px) 100vw, 335px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 384px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1dfffbf288a8c71cbe9d403715bf1f38/804b2/clickable_courses_before_light.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 23.64864864864865%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA3UlEQVQY05WQ62qDQBCFff+HKoFAGpI0appSQkJ6k13Xy+5qQRtFv65SoSn9k4HDYZjbOePFSlHXFV8OMlE0TevQYI2huVxcraaqKow2Iw99tiworMXYgrZtx56+7xnCm83u2O9CQt9nvrzn9eWNx2DPZrXifDqxXq4Jtj4bx77jp13AfLHgfDyyfQg5PB8IAp+u+1nIjTEomdQM3HXdVe4ZazDOXpZlJLFCuhdEIhotCSnQWo9Wp4Hfi/8eGhXmWUqSpgghyLMclSR8RO9oo4lVjJSSsvy8Uvcfpvo3vg19XLUTxk4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Fehlende Link-Hervorhebung Liste&quot;
+        title=&quot;Fehlende Hervorhebung der klickbaren Kurse auf der Anbieterseite&quot;
+        src=&quot;/static/1dfffbf288a8c71cbe9d403715bf1f38/804b2/clickable_courses_before_light.png&quot;
+        srcset=&quot;/static/1dfffbf288a8c71cbe9d403715bf1f38/12f09/clickable_courses_before_light.png 148w,
+/static/1dfffbf288a8c71cbe9d403715bf1f38/e4a3f/clickable_courses_before_light.png 295w,
+/static/1dfffbf288a8c71cbe9d403715bf1f38/804b2/clickable_courses_before_light.png 384w&quot;
+        sizes=&quot;(max-width: 384px) 100vw, 384px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Um die Links visuell besser hervorzuheben, haben wir diese mit unserer zuvor während der Kontrastoptimierung neu erstellten Primary Color versehen:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;--ion-color-primary&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;Anbieter: 
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Link&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;provider_link&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;/providers/&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;course&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;provider&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;course&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;provider&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Link&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Danach waren die Links besser ersichtlich:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 330px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1b17894db8822f93b758d85f1035659c/d9ecf/clickable_link_after_dark.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 34.45945945945946%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABeklEQVQoz22QWW/TQBRG80qaxHacBdmOLS+pXdtZJmliahBCLBKUqklaHoIUAkXi//+Ew7VpI5B4GM1253znTqPf66HrGu12ux6t1hmapuM4Dj25M7smw8FAzltSp2NZFqZp1nUtqa/Out0uhmFgyNwor0o+X9+w3dyyub1hs72TecvXw56HH0d2ux0/H35x+HZAKcX+cOT7cc/HT9d8ub8jz/M6rAqpwI3h8LnYjAgCH8/zCMMQfzSiL4me68o+wHc94iiiLw9sy2Y8jqQ+JI5jbNs+WdbA8XnMenXJZJKTpSn+RULy5jX5+7fYUcBAoE4S48p9eLnAkoCzZpNOp1N/kaZp/7bsi9FCzVgslEAnjMTUnU2Jrgrsc7ESYLWffHhHKkFOFGJUkMcWn2Anw7mApgLK0gwlD9VU1klCIO2nFymr1ZJ5ltIRq/azJrqYnYz+Ap2AmbRSliVqrijWa1bLJS9flczmM4qioHhRMM2zP5/+aPU/0NP4DYFUxSeysHTXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Link-Hervorhebung&quot;
+        title=&quot;Hervorhebung der Verlinkung durch Farbe und Font-Weight&quot;
+        src=&quot;/static/1b17894db8822f93b758d85f1035659c/d9ecf/clickable_link_after_dark.png&quot;
+        srcset=&quot;/static/1b17894db8822f93b758d85f1035659c/12f09/clickable_link_after_dark.png 148w,
+/static/1b17894db8822f93b758d85f1035659c/e4a3f/clickable_link_after_dark.png 295w,
+/static/1b17894db8822f93b758d85f1035659c/d9ecf/clickable_link_after_dark.png 330w&quot;
+        sizes=&quot;(max-width: 330px) 100vw, 330px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 384px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4bbc7884600931b51f9be17cc0aa53bc/804b2/clickable_courses_after_light.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30.405405405405407%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA2UlEQVQY062O0U6DQBBF+f8/q9S00KKUpkURgt1lgYpgwgLH3Y1NfKsP3mRm7txkJscb+p7T+cRn90HdNGRFzjhqWuNrpej7gWt7RQlJJSuGYUBIQdPUFG+52b/ouo55nrHylDny/RVJHBMEIUG0I88KgscNxyRx+XYTEIU7M7ccng/46wfSl5SnMCKOj0T7vYNwD/lHLcuCZ5vFtfPmp2lyZXf9y/+lHKE9KlVFWStexYVCXjiXBZmULkvfS0TbMJuDe/JuqKPW7rE201I6P2mmH2K72/xefQPA/8694Jba3QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Link-Hervorhebung Liste&quot;
+        title=&quot;Hervorhebung der Verlinkung durch Verwendung von List-Buttons und Farbe&quot;
+        src=&quot;/static/4bbc7884600931b51f9be17cc0aa53bc/804b2/clickable_courses_after_light.png&quot;
+        srcset=&quot;/static/4bbc7884600931b51f9be17cc0aa53bc/12f09/clickable_courses_after_light.png 148w,
+/static/4bbc7884600931b51f9be17cc0aa53bc/e4a3f/clickable_courses_after_light.png 295w,
+/static/4bbc7884600931b51f9be17cc0aa53bc/804b2/clickable_courses_after_light.png 384w&quot;
+        sizes=&quot;(max-width: 384px) 100vw, 384px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/241b3771aa3baf527c8e3805851c618c/courses_hover.gif&quot; alt=&quot;Kurs-Hover-Effekt&quot; title=&quot;Hover Effekt bei Kurslist auf der Anbieterseite&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Mockup&lt;/h3&gt;
+&lt;p&gt;Unser erster Adobe XD Klick-Prototyp für unser erstes User-Testing im Dezember 2019 war noch auf die pure Funktionalität fokussiert und sollte uns helfen die Customer Needs und Pains zu ermitteln. Deshalb wurden hier weder Farben &amp;#x26; Layout, noch Typographie oder andere Faktoren eines Beauty &amp;#x26; Delight Ansatzes berücksichtigt.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9c2eaf537db7b4037ec73dce3b1cbeae/0f98f/mockup_provider_before.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.78378378378378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHchgUGB//EABcQAAMBAAAAAAAAAAAAAAAAAAABEiD/2gAIAQEAAQUClEolY//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAQEBAAAAAAAAAAAAAAAAADEAIP/aAAgBAQAGPwIiMf/EABsQAAIBBQAAAAAAAAAAAAAAAAABURARIWGR/9oACAEBAAE/IXCNPgoY1dCxT//aAAwDAQACAAMAAAAQUw//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEAAQQDAAAAAAAAAAAAAAABABEhMVEQQXH/2gAIAQEAAT8QG2x6lwBa94RRcXyAg4YKA1x//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Anbieter-Ansicht-Mockup&quot;
+        title=&quot;Anbieter-Ansicht-Mockup&quot;
+        src=&quot;/static/9c2eaf537db7b4037ec73dce3b1cbeae/1c72d/mockup_provider_before.jpg&quot;
+        srcset=&quot;/static/9c2eaf537db7b4037ec73dce3b1cbeae/a80bd/mockup_provider_before.jpg 148w,
+/static/9c2eaf537db7b4037ec73dce3b1cbeae/1c91a/mockup_provider_before.jpg 295w,
+/static/9c2eaf537db7b4037ec73dce3b1cbeae/1c72d/mockup_provider_before.jpg 590w,
+/static/9c2eaf537db7b4037ec73dce3b1cbeae/a8a14/mockup_provider_before.jpg 885w,
+/static/9c2eaf537db7b4037ec73dce3b1cbeae/fbd2c/mockup_provider_before.jpg 1180w,
+/static/9c2eaf537db7b4037ec73dce3b1cbeae/0f98f/mockup_provider_before.jpg 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In unserer aktuellen Applikation in Development wurden bereits erste Grundsätze wie zum Beispiel die Farben und Kontraste (wie im vorherigen Kapitel beschrieben) umgesetzt.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e3d06f11397a57bef5ba967d6b8f79d2/29114/course_after_dark.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.67567567567568%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABJ0lEQVQoz52SwU7CQBCGmygBBaTb3aXLtsW2tuFifQ2PYORAiCcfQlExKokmJr7z72yl2JoqxMOX2fl35k9mdq2r1xVmz4+4fFpiSvFieYfx/Q0mD7d0XlSYkD57W2H+8Y5xzb3BCoMIgklIwkRfDRCGx3CFRKfZQpvotL443N/D+XSO68ULlBA4aDRyvd38xgrjBNoLMNA+FJGORgiTBNJ1wampwCGk4JBhgpPsDEOtwBxeqTFYtm2DMZbjOA7iOIZSCkY3eRlG2L0j9Lpd2Ov6n1ib4nVBmqYYDoNNXjZzCo3zSs+fhlEU0Qp0RStPUDbZydAPfHieByllbcM2rMpYZJDQg2TZKbTW/zMsxingtB9hXvWXkbYain4fhvxrlJZdt79d+ARzyguLhXQSbQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Aktuelle Anbieter-Ansicht&quot;
+        title=&quot;Aktuelle Anbieter-Ansicht&quot;
+        src=&quot;/static/e3d06f11397a57bef5ba967d6b8f79d2/fcda8/course_after_dark.png&quot;
+        srcset=&quot;/static/e3d06f11397a57bef5ba967d6b8f79d2/12f09/course_after_dark.png 148w,
+/static/e3d06f11397a57bef5ba967d6b8f79d2/e4a3f/course_after_dark.png 295w,
+/static/e3d06f11397a57bef5ba967d6b8f79d2/fcda8/course_after_dark.png 590w,
+/static/e3d06f11397a57bef5ba967d6b8f79d2/efc66/course_after_dark.png 885w,
+/static/e3d06f11397a57bef5ba967d6b8f79d2/c83ae/course_after_dark.png 1180w,
+/static/e3d06f11397a57bef5ba967d6b8f79d2/29114/course_after_dark.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Das Layout und die genaue Anordnung der Elemente sowie eine einheitliche Form unserer Formulare und Profile wurden bis jetzt noch gar nicht berücksichtigt, da wir zuerst ein grobes Setup und die Auslieferung der Daten realisieren wollten. Im nächsten Schritt legten wir nun Mockups unter berücksichtigung des Beauty &amp;#x26; Delight Ansatzes an, auf die in den folgenden Absätzen noch näher eingegangen wird.&lt;/p&gt;
+&lt;h4&gt;Profil&lt;/h4&gt;
+&lt;p&gt;Bei der Gestaltung der Profilseite eines Kursanbieters haben wir darauf geachtet, die für den User am relevantesten Infos so zu platzieren, dass sie auf einen Blick erfasst werden können, ohne dass der User von der Masse an Informationen erschlagen wird. Die Kategorien, die wir bereits als farblich hinterlegte Labels von der Übersichtsseite kennen, wurden hier wiederverwendet, um die Konsistenz unserer Webanwendung zu erhöhen. Größere Blöcke an zusammengehörigen Informationen werden auch visuell als solche dargestellt - in diesem Fall die Kontaktdaten der Ansprechperson und die Adresse, die über eine Toggle-Button zu einer Google-Maps-Ansicht wechselt.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1b241bf7a78ce70198fbba0e8be28f4e/0f98f/mockup_profile_after.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95.94594594594595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB6mLrZkleJoFvB//EABoQAQACAwEAAAAAAAAAAAAAAAIBAwASExT/2gAIAQEAAQUCtoh1+Ocpp0CWp7jCoRUQjwrwmDH/xAAWEQEBAQAAAAAAAAAAAAAAAAARABD/2gAIAQMBAT8BI3//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAACAgEFAQAAAAAAAAAAAAAAAQIRMSMyQUJRkf/aAAgBAQAGPwJxjUX7QtQqVSftDk+Dt8LRTwzaUsH/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMVHRYf/aAAgBAQABPyG4EwMSlPkDm1ArhWsI3esJXU9lRUd4JN/bAZ0OCf/aAAwDAQACAAMAAAAQBN8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAABFREP/aAAgBAwEBPxBIJN//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAfEAACAgIBBQAAAAAAAAAAAAABEQAhMVFhQXGBkdH/2gAIAQEAAT8QcboIGwR4lJyRIIAj65lLRbo1cZyE1hXYQhAha8y1uUrthhejFzpYTEykbfM3vcV/qY1P/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Profilseite-Mockup&quot;
+        title=&quot;Profilseite-Mockup&quot;
+        src=&quot;/static/1b241bf7a78ce70198fbba0e8be28f4e/1c72d/mockup_profile_after.jpg&quot;
+        srcset=&quot;/static/1b241bf7a78ce70198fbba0e8be28f4e/a80bd/mockup_profile_after.jpg 148w,
+/static/1b241bf7a78ce70198fbba0e8be28f4e/1c91a/mockup_profile_after.jpg 295w,
+/static/1b241bf7a78ce70198fbba0e8be28f4e/1c72d/mockup_profile_after.jpg 590w,
+/static/1b241bf7a78ce70198fbba0e8be28f4e/a8a14/mockup_profile_after.jpg 885w,
+/static/1b241bf7a78ce70198fbba0e8be28f4e/fbd2c/mockup_profile_after.jpg 1180w,
+/static/1b241bf7a78ce70198fbba0e8be28f4e/0f98f/mockup_profile_after.jpg 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Formular&lt;/h4&gt;
+&lt;p&gt;Bei dem Registrierformular für den Kursanbieter, der verhältnismäßig mehr Daten angeben muss als der normale Durchschnittsuser,  haben wir uns für ein Multi-Step-Formular mit Visualisierung des Formular-Fortschritts in Form eines Balkens entschieden, um den User besser durch den Ausfüll-Prozess zu führen und um die Usability zu verbessern. Somit weiß der User immer genau, wo er sich gerade befindet und wie viele weitere Steps noch folgen.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/074544f05a8fe4681f704c17cc7b6883/0f98f/mockup_register_after.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHMbK1JxYf/xAAZEAADAQEBAAAAAAAAAAAAAAAAAgMSE0H/2gAIAQEAAQUCpRjTZ6OUPD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAACAgMBAAAAAAAAAAAAAAAAAQIyEBGBkf/aAAgBAQAGPwJak10sy8vRZ//EABsQAAIBBQAAAAAAAAAAAAAAAAAxEBFBUaHx/9oACAEBAAE/IdUQes5O4FFVj//aAAwDAQACAAMAAAAQFx//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QiIj/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAADAAICAwAAAAAAAAAAAAAAARFBYSExocHw/9oACAEBAAE/EF1kFoqKXnbT772L5BNikvWiI//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Registrierseite-Mockup&quot;
+        title=&quot;Registrierseite-Mockup&quot;
+        src=&quot;/static/074544f05a8fe4681f704c17cc7b6883/1c72d/mockup_register_after.jpg&quot;
+        srcset=&quot;/static/074544f05a8fe4681f704c17cc7b6883/a80bd/mockup_register_after.jpg 148w,
+/static/074544f05a8fe4681f704c17cc7b6883/1c91a/mockup_register_after.jpg 295w,
+/static/074544f05a8fe4681f704c17cc7b6883/1c72d/mockup_register_after.jpg 590w,
+/static/074544f05a8fe4681f704c17cc7b6883/a8a14/mockup_register_after.jpg 885w,
+/static/074544f05a8fe4681f704c17cc7b6883/fbd2c/mockup_register_after.jpg 1180w,
+/static/074544f05a8fe4681f704c17cc7b6883/0f98f/mockup_register_after.jpg 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;UI-Prinzipien&lt;/h2&gt;
+&lt;p&gt;In Bezug auf die vier UI-Prinzipien &lt;strong&gt;“Accessibility”&lt;/strong&gt;, &lt;strong&gt;“Guidance &amp;#x26; Hierarchy“&lt;/strong&gt;,  &lt;strong&gt;“Responsive &amp;#x26; Forgiving”&lt;/strong&gt; und &lt;strong&gt;“Beauty &amp;#x26; Delight”&lt;/strong&gt; konnten wir im Laufe des Workshops auch einige Fortschritte verzeichnen. &lt;/p&gt;
+&lt;p&gt;In Punkto &lt;strong&gt;“Accessibility”&lt;/strong&gt; stellten wir fest, dass beim aktuellen Stand des Prototypen gewisse Features noch nicht vollständig umgesetzt waren, allerdings noch nicht ausreichend als “Work in Progress” für unsere Tester gekennzeichnet waren. Dies sollte dem Nutzer in Zukunft klarer kommuniziert werden. Außerdem führten wir uns erneut vor Augen, in welcher Situation unsere zwei Usergruppen unsere Webanwendung auf welchem Device verwenden würden: Die Desktop-Ansicht ist in erster Linie für Anbieter gedacht, während die Mobil-Ansicht für die aktiven Mitglieder quasi “on the go” verfügbar sein sollte. Für eine bessere Lesbarkeit haben wir in diesem Kontext auch weitere Kontrastanpassungen bei unsere Links und Labels vorgenommen.&lt;/p&gt;
+&lt;p&gt;Hinsichtlich des Punktes &lt;strong&gt;“Guidance &amp;#x26; Hierarchy”&lt;/strong&gt; tauchte bei uns das Problem auf, dass hin und wieder Zurück-Buttons fehlen und dadurch für den User nicht klar ersichtlich ist, dass er wieder zurück navigieren kann. Ansonsten ist für den User klar verständlich, wo er sich gerade befindet, wo er hingehen kann und wo welche Informationen aufgefunden werden. Das wird vor allem dadurch unterstützt, dass wir für gleiche Elemente, wie zum Beispiel Buttons, immer ein konsistentes Design verwenden. Grundsätzlich sind auch ähnliche Seiten (wie die Kurs Detailansicht und die Anbieter Detailansicht) gleich aufgebaut um somit dem User eine Klarheit und Konsistenz in unserer App zu bieten. Auch der Punkt “Hierarchie und Wichtigkeit” wurde beachtet, indem unsere Informationen auf der Kurs-Detailansicht nach der Wichtigkeit für den User gereiht werden. Eher unwichtige Informationen werden somit weiter unten gereiht.&lt;/p&gt;
+&lt;p&gt;Bei unserer Analyse zum nächsten Prinzip &lt;strong&gt;“Responsive &amp;#x26; Forgiving”&lt;/strong&gt; stellten wir fest, das unsere User noch wenig Rückmeldung zum Erfolg eines Bearbeitungs- oder Löschvorgangs erhalten. Deshalb erstellten wir sogleich ein Issue, um sogenannte “Empty States” mit entsprechend aufbereiteten und visuell eindeutig gestalteten Server Responses zu vermeiden. So soll der Status der Webapp für den User zu jeder Zeit nachvollziehbar sein. Es soll dem User auch möglich sein, gewisse Schritte rückgängig zu machen. Eventuelle Sackgassen wollen wir demnach mit “Undo”-Buttons realisieren.&lt;/p&gt;
+&lt;p&gt;Beim letzten Punkt &lt;strong&gt;“Beauty &amp;#x26; Delight”&lt;/strong&gt; haben wir unseren ersten Prototyp noch einmal komplett überarbeitet und ein großes Augenmerk auf eine einheitliche Farbwahl mit ausreichend Kontrast gelegt. Ein harmonisches Gesamtbild soll im 3. Semester des Masters erreicht werden, wenn das Logo von einer oder einem unserer Kolleginnnen/Kollegen des Partnerstudiengang MMA überarbeitet wird. In Zuge dessen können ebenfalls Änderungen der Typographie für die Überschriften und den Fließtext erfolgen.&lt;/p&gt;
+&lt;h2&gt;Benutzte Technologien hinsichtlich UI&lt;/h2&gt;
+&lt;h3&gt;Ionic Framework&lt;/h3&gt;
+&lt;p&gt;Wir verwenden &lt;a href=&quot;https://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt; als Framework. Dieses bietet bereits fertige &lt;a href=&quot;https://ionicframework.com/docs/components&quot;&gt;UI-Komponenten&lt;/a&gt; welche sich (je nach Endgerät) an das Material bzw. iOS Design orientieren. Zusätzlich bietet das Framework die Möglichkeit Variablen des Themes nach Bedarf zu überschreiben (siehe &lt;a href=&quot;https://ionicframework.com/docs/theming/basics&quot;&gt;Ionic Theming Basics&lt;/a&gt;).&lt;/p&gt;
+&lt;h3&gt;Ionic Color Creator&lt;/h3&gt;
+&lt;p&gt;Ionic hat neun Standardfarben, mit denen die Farbe vieler Komponenten geändert werden kann. Jede Farbe ist eigentlich eine Sammlung mehrerer Eigenschaften: Base-Color, Kontrast, Farbton und Tönung. Die Basis- und Kontrastfarben erfordern auch eine rgb-Eigenschaft, die dieselbe Farbe ist, nur im rgb-Format. Diese Sammlung kann auf der &lt;a href=&quot;https://ionicframework.com/docs/theming/colors&quot;&gt;Ionic Colors&lt;/a&gt;-Seite mit einen beliebigen HEX-Code genieriert werden.&lt;/p&gt;
+&lt;p&gt;In unserem Projekt haben wir uns gegen die von Ionic vorgeschlagenen Standardfarben entschieden und diese mit anderen Farbwerten überschrieben (siehe Codebeispiele). &lt;/p&gt;
+&lt;h3&gt;Link Contrast Checker&lt;/h3&gt;
+&lt;p&gt;Der &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/&quot;&gt;Link Contrast Checker&lt;/a&gt; von WebAIM erleichtert Designer und Developer einen ausreichenden Kontrast zwischen Hintergrundfarbe und Textfarbe für ihr Projekt zu ermitteln und anzuwenden.&lt;/p&gt;
+&lt;h2&gt;Ausblick&lt;/h2&gt;
+&lt;p&gt;Aktuell befinden sich in unserem Issues-Board folgende Issues mit dem Tag &lt;strong&gt;CSS UI&lt;/strong&gt;, bei denen wir noch über weitere Umsetzungsmöglichkeiten diskutieren müssen.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/322234e4d4d9725648c5839f58d8f070/690c6/css-ui-issues-board.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40.54054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABSklEQVQoz41Q207DMAzt/3/aNGkgNhgFJCQYdFvbJG1zc5IenEhFBfFAJEu2Y5+LK2csvCcEAJQivHMYxxGBAg7dESfbwHA+2An92ENMAsZZKD3B83zgRSKC4z1jDKo30eL55RFqe4R/l8jPe49BKXRPNdpNDd3vEZMAEjDPgB0krtsDhrsa1t1yL5a9xASVtAbSjqBOgZTBnJWyYiEEvFRwjYQzF4SoEWNi4OzCwgn+6yWTdwUoJf6LDKjPn5CbI0KrC0uWkC1IKRHnxGcIXCdeDBwOxB6zwnb3gOvuns9zUxRm5QXQDsz00SKwusTdOaViOQOGEEqeg8gXohK51gaB70808RyV2RzVdGmg96+gy1jsziuFC+AC9CNnEF96a1Jiy3x8dTojaM8KU7nFb4V/AuZ8pfwb0LDCcVsjNAOWl4H+BbicYFV/AT8TbFgd/N6VAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Issues Board mit &amp;quot;CSS UI&amp;quot; Issues&quot;
+        title=&quot;CSS &amp;amp; UI Issues&quot;
+        src=&quot;/static/322234e4d4d9725648c5839f58d8f070/fcda8/css-ui-issues-board.png&quot;
+        srcset=&quot;/static/322234e4d4d9725648c5839f58d8f070/12f09/css-ui-issues-board.png 148w,
+/static/322234e4d4d9725648c5839f58d8f070/e4a3f/css-ui-issues-board.png 295w,
+/static/322234e4d4d9725648c5839f58d8f070/fcda8/css-ui-issues-board.png 590w,
+/static/322234e4d4d9725648c5839f58d8f070/efc66/css-ui-issues-board.png 885w,
+/static/322234e4d4d9725648c5839f58d8f070/c83ae/css-ui-issues-board.png 1180w,
+/static/322234e4d4d9725648c5839f58d8f070/690c6/css-ui-issues-board.png 1201w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ein perfektes UI-Design existiert nicht. Es wird immer Raum für Verbesserungen geben, so auch in diesem Projekt. &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Activise&lt;/strong&gt; ist das Masterprojekt für den Studiengang MultiMediaTechnology an der Fachhochschule Salzburg von Isabella, Julia, Lisa-Maria und Kevin.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Test post because GitHub and Gatsby do not like empty folders, so here are some cats:]]></description><link>https://blog.darkc.at/2020-05-22-hello-world/</link><guid isPermaLink="false">https://blog.darkc.at/2020-05-22-hello-world/</guid><pubDate>Fri, 22 May 2020 08:23:22 GMT</pubDate><content:encoded>&lt;p&gt;Test post because GitHub and Gatsby do not like empty folders, so here are some cats:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
