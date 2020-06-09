@@ -162,17 +162,17 @@ Hinsichtlich des Punktes **“Guidance & Hierarchy”** tauchte bei uns das Prob
 
 Bei unserer Analyse zum nächsten Prinzip **“Responsive & Forgiving”** stellten wir fest, dass unsere User noch wenig Rückmeldung zum Erfolg eines Bearbeitungs- oder Löschvorgangs erhalten. Deshalb erstellten wir sogleich ein Issue, um sogenannte “Empty States” zu vermeiden, indem wir entsprechend aufbereitet und visuell eindeutig gestaltete Server Responses einfügen. So soll der Status der Webapp für den User zu jeder Zeit nachvollziehbar sein. Es soll dem User auch möglich sein, gewisse Schritte rückgängig zu machen. Eventuelle Sackgassen wollen wir demnach mit “Undo”-Buttons realisieren.
 
-Beim letzten Punkt **“Beauty & Delight”** haben wir unseren ersten Prototyp noch einmal komplett überarbeitet und ein großes Augenmerk auf eine einheitliche Farbwahl mit ausreichend Kontrast gelegt. Ein harmonisches Gesamtbild soll im 3. Semester des Masters erreicht werden, wenn das Logo von einer oder einem unserer Kolleginnnen/Kollegen des Partnerstudiengang MMA überarbeitet wird. In Zuge dessen können ebenfalls Änderungen der Typographie für die Überschriften und den Fließtext erfolgen.
+Beim letzten Punkt **“Beauty & Delight”** haben wir unseren ersten Prototyp noch einmal komplett überarbeitet und ein großes Augenmerk auf eine einheitliche Farbwahl mit ausreichend Kontrast gelegt. Ein harmonisches Gesamtbild soll im 3. Semester des Masters erreicht werden, wenn das Logo von einer oder einem unserer Kolleginnnen/Kollegen des Partnerstudiengangs MMA überarbeitet wird. In Zuge dessen können ebenfalls Änderungen der Typographie für die Überschriften und den Fließtext erfolgen.
 
 ## Benutzte Technologien hinsichtlich UI
 
 ### Ionic Framework
 
-Wir verwenden [Ionic](https://ionicframework.com/) als Framework. Dieses bietet bereits fertige [UI-Komponenten](https://ionicframework.com/docs/components) welche sich (je nach Endgerät) an das Material- bzw. iOS-Design orientieren. Zusätzlich bietet das Framework die Möglichkeit Variablen des Themes nach Bedarf zu überschreiben (siehe [Ionic Theming Basics](https://ionicframework.com/docs/theming/basics)).
+Wir verwenden [Ionic](https://ionicframework.com/) als Framework. Dieses bietet bereits fertige [UI-Komponenten](https://ionicframework.com/docs/components), welche sich (je nach Endgerät) an das Material- bzw. iOS-Design orientieren. Zusätzlich bietet das Framework die Möglichkeit, Variablen des Themes nach Bedarf zu überschreiben (siehe [Ionic Theming Basics](https://ionicframework.com/docs/theming/basics)).
 
 ### Ionic Color Creator
 
-Ionic hat neun Standardfarben, mit denen die Farbe vieler Komponenten geändert werden kann. Jede Farbe ist eigentlich eine Sammlung mehrerer Eigenschaften: Base-Color, Kontrast, Farbton und Tönung. Die Basis- und Kontrastfarben erfordern auch eine RGB-Eigenschaft, die dieselbe Farbe ist, nur im RGB-Format. Diese Sammlung kann auf der [Ionic Colors](https://ionicframework.com/docs/theming/colors)-Seite mit einen beliebigen HEX-Code genieriert werden.
+Ionic hat neun Standardfarben, mit denen die Farbe vieler Komponenten geändert werden kann. Jede Farbe ist eigentlich eine Sammlung mehrerer Eigenschaften: Base-Color, Kontrast, Farbton und Tönung. Die Basis- und Kontrastfarben erfordern auch eine RGB-Eigenschaft, die dieselbe Farbe nur im RGB-Format ist. Diese Sammlung kann auf der [Ionic Colors](https://ionicframework.com/docs/theming/colors)-Seite mit einen beliebigen HEX-Code genieriert werden.
 
 In unserem Projekt haben wir uns gegen die von Ionic vorgeschlagenen Standardfarben entschieden und diese mit anderen Farbwerten überschrieben (siehe Codebeispiele). 
 
