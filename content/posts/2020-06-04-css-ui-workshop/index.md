@@ -8,6 +8,10 @@ isListed: false
 
 Unser Ziel im Verlauf des CSS & UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu bringen.
 
+ “Activise” ist eine Applikation, welche als App oder als Website im Browser benutzt werden kann. Ziel ist es, Suchenden/Usern die Möglichkeit zu bieten, auf ihre Interessen abgestimmte Angebote zu finden und alle wichtigen Informationen im Überblick zu erhalten.  Ebenfalls soll die Kontaktaufnahme von Suchenden und Anbietern vereinfacht werden. Die App soll vor allem Personen ansprechen, welche ein neues Hobby suchen oder etwas Neues ausprobieren wollen. Es wird davon ausgegangen, dass diese Nutzergruppe die Website eher unterwegs am Smartphone bedient. Auf der anderen Seite sollen ebenfalls Anbieter, wie Vereine etc. angesprochen werden. Da die Verwaltung der Kurse und die Angabe nötiger Informationen aus Anbietersicht mehrere Eingaben erfordern, wird diese Nutzergruppe die Website eher auf einem Desktop-Gerät bedienen. Dadurch ergeben sich verschiedene Use Cases die auch in dem Design berücksichtigt werden müssen.
+
+![Adventure](undraw_adventure.png "Finde neue Abenteuer")
+
 ## Identifizierte Probleme
 
 Während der Analyse unserer App hinsichtlich der UI-Prinzipien, sind folgende Probleme aufgetaucht:
@@ -18,7 +22,7 @@ Während der Analyse unserer App hinsichtlich der UI-Prinzipien, sind folgende P
 * Inkonsistentes Styling von Formularen
 * Klickbare Elemente teilweise nicht ersichtlich
 
-Durch den CSS- & UI- Workshops wurden Lösungen für die Probleme bezüglich Kontrast, Klickbare Elemente und Mockup erarbeitet und eine Vorher-Nachher Vergleich erstellt.
+Durch den CSS- & UI- Workshops wurden Lösungen für die Probleme bezüglich Kontrast, klickbare Elemente und Mockup erarbeitet und eine Vorher-Nachher Vergleich erstellt.
 
 ## Vorher-Nachher-Studie
 
@@ -136,6 +140,18 @@ Bei dem Registrierformular für den Kursanbieter, der verhältnismäßig mehr Da
 
 ![Registrierseite-Mockup](mockup_register_after.jpg "Registrierseite-Mockup")
 
+#### User Feedback
+
+Ein erstes kurzes User Testing des neuen Klick-Prototyps hat ergeben, dass es hier noch kleinere Anpassungen der Kontraste im Bereich des neuen Registrier-Formulars benötigt. Sehr positiv wurde das schrittweise Durchführen durch den Registriervorgangs bewertet. Dadurch wurde die Navigation vereinfacht und der User fühlt sich weniger verloren.
+
+Der Dark/Light Mode Button in der Navigation wurde als überflüssig bzw. deplatziert kommentiert, da die Systemeinstellungen vom User auf unserer Seite ohnehin übernommen werden. Deshalb haben wir uns dazu entschieden diesen Toggle auf einem weniger prominenten Platz zu platzieren und somit wurde dieser in den Settings auf der User-Profilseite verschoben.
+
+![Registrierseite-Mockup Dark überarbeitet](mockup_register_after_light_new.jpg "Registrierseite-Mockup überarbeitet (dunkel)")
+
+![Registrierseite-Mockup Light überarbeitet](mockup_register_after_dark_new.jpg "Registrierseite-Mockup überarbeitet (hell)")
+
+![Anbieterseite-Mockup Light überarbeitet](mockup_profile_after_light_new.jpg "Anbieterseite-Mockup überarbeitet (hell)")
+
 ## UI-Prinzipien
 
 In Bezug auf die vier UI-Prinzipien **“Accessibility”**, **“Guidance & Hierarchy“**,  **“Responsive & Forgiving”** und **“Beauty & Delight”** konnten wir im Laufe des Workshops auch einige Fortschritte verzeichnen. 
@@ -144,7 +160,7 @@ In Punkto **“Accessibility”** stellten wir fest, dass beim aktuellen Stand d
 
 Hinsichtlich des Punktes **“Guidance & Hierarchy”** tauchte bei uns das Problem auf, dass hin und wieder Zurück-Buttons fehlen und dadurch für den User nicht klar ersichtlich ist, dass er wieder zurück navigieren kann. Ansonsten ist für den User klar verständlich, wo er sich gerade befindet, wo er hingehen kann und wo welche Informationen aufgefunden werden. Das wird vor allem dadurch unterstützt, dass wir für gleiche Elemente, wie zum Beispiel Buttons, immer ein konsistentes Design verwenden. Grundsätzlich sind auch ähnliche Seiten (wie die Kurs Detailansicht und die Anbieter Detailansicht) gleich aufgebaut um somit dem User eine Klarheit und Konsistenz in unserer App zu bieten. Auch der Punkt “Hierarchie und Wichtigkeit” wurde beachtet, indem unsere Informationen auf der Kurs-Detailansicht nach der Wichtigkeit für den User gereiht werden. Eher unwichtige Informationen werden somit weiter unten gereiht.
 
-Bei unserer Analyse zum nächsten Prinzip **“Responsive & Forgiving”** stellten wir fest, das unsere User noch wenig Rückmeldung zum Erfolg eines Bearbeitungs- oder Löschvorgangs erhalten. Deshalb erstellten wir sogleich ein Issue, um sogenannte “Empty States” mit entsprechend aufbereiteten und visuell eindeutig gestalteten Server Responses zu vermeiden. So soll der Status der Webapp für den User zu jeder Zeit nachvollziehbar sein. Es soll dem User auch möglich sein, gewisse Schritte rückgängig zu machen. Eventuelle Sackgassen wollen wir demnach mit “Undo”-Buttons realisieren.
+Bei unserer Analyse zum nächsten Prinzip **“Responsive & Forgiving”** stellten wir fest, dass unsere User noch wenig Rückmeldung zum Erfolg eines Bearbeitungs- oder Löschvorgangs erhalten. Deshalb erstellten wir sogleich ein Issue, um sogenannte “Empty States” zu vermeiden, indem wir entsprechend aufbereitet und visuell eindeutig gestaltete Server Responses einfügen. So soll der Status der Webapp für den User zu jeder Zeit nachvollziehbar sein. Es soll dem User auch möglich sein, gewisse Schritte rückgängig zu machen. Eventuelle Sackgassen wollen wir demnach mit “Undo”-Buttons realisieren.
 
 Beim letzten Punkt **“Beauty & Delight”** haben wir unseren ersten Prototyp noch einmal komplett überarbeitet und ein großes Augenmerk auf eine einheitliche Farbwahl mit ausreichend Kontrast gelegt. Ein harmonisches Gesamtbild soll im 3. Semester des Masters erreicht werden, wenn das Logo von einer oder einem unserer Kolleginnnen/Kollegen des Partnerstudiengang MMA überarbeitet wird. In Zuge dessen können ebenfalls Änderungen der Typographie für die Überschriften und den Fließtext erfolgen.
 
@@ -152,11 +168,11 @@ Beim letzten Punkt **“Beauty & Delight”** haben wir unseren ersten Prototyp 
 
 ### Ionic Framework
 
-Wir verwenden [Ionic](https://ionicframework.com/) als Framework. Dieses bietet bereits fertige [UI-Komponenten](https://ionicframework.com/docs/components) welche sich (je nach Endgerät) an das Material bzw. iOS Design orientieren. Zusätzlich bietet das Framework die Möglichkeit Variablen des Themes nach Bedarf zu überschreiben (siehe [Ionic Theming Basics](https://ionicframework.com/docs/theming/basics)).
+Wir verwenden [Ionic](https://ionicframework.com/) als Framework. Dieses bietet bereits fertige [UI-Komponenten](https://ionicframework.com/docs/components) welche sich (je nach Endgerät) an das Material- bzw. iOS-Design orientieren. Zusätzlich bietet das Framework die Möglichkeit Variablen des Themes nach Bedarf zu überschreiben (siehe [Ionic Theming Basics](https://ionicframework.com/docs/theming/basics)).
 
 ### Ionic Color Creator
 
-Ionic hat neun Standardfarben, mit denen die Farbe vieler Komponenten geändert werden kann. Jede Farbe ist eigentlich eine Sammlung mehrerer Eigenschaften: Base-Color, Kontrast, Farbton und Tönung. Die Basis- und Kontrastfarben erfordern auch eine rgb-Eigenschaft, die dieselbe Farbe ist, nur im rgb-Format. Diese Sammlung kann auf der [Ionic Colors](https://ionicframework.com/docs/theming/colors)-Seite mit einen beliebigen HEX-Code genieriert werden.
+Ionic hat neun Standardfarben, mit denen die Farbe vieler Komponenten geändert werden kann. Jede Farbe ist eigentlich eine Sammlung mehrerer Eigenschaften: Base-Color, Kontrast, Farbton und Tönung. Die Basis- und Kontrastfarben erfordern auch eine RGB-Eigenschaft, die dieselbe Farbe ist, nur im RGB-Format. Diese Sammlung kann auf der [Ionic Colors](https://ionicframework.com/docs/theming/colors)-Seite mit einen beliebigen HEX-Code genieriert werden.
 
 In unserem Projekt haben wir uns gegen die von Ionic vorgeschlagenen Standardfarben entschieden und diese mit anderen Farbwerten überschrieben (siehe Codebeispiele). 
 
@@ -171,6 +187,18 @@ Aktuell befinden sich in unserem Issues-Board folgende Issues mit dem Tag **CSS 
 ![Issues Board mit "CSS UI" Issues](css-ui-issues-board.png "CSS & UI Issues")
 
 Ein perfektes UI-Design existiert nicht. Es wird immer Raum für Verbesserungen geben, so auch in diesem Projekt. 
+
+## Quellen
+https://webaim.org/
+
+https://ionicframework.com/docs/theming/colors
+
+https://ionicframework.com/
+
+https://www.w3.org/WAI/standards-guidelines/wcag/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+
 
 ---
 
