@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DarkC's Blog]]></title><description><![CDATA[Development blog for several projects.]]></description><link>https://blog.darkc.at</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 05 Jun 2020 14:07:13 GMT</lastBuildDate><item><title><![CDATA[CSS- & UI-Workshop]]></title><description><![CDATA[Unser Ziel im Verlauf des CSS & UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu…]]></description><link>https://blog.darkc.at/2020-06-04-css-ui-workshop/</link><guid isPermaLink="false">https://blog.darkc.at/2020-06-04-css-ui-workshop/</guid><pubDate>Thu, 04 Jun 2020 08:15:00 GMT</pubDate><content:encoded>&lt;p&gt;Unser Ziel im Verlauf des CSS &amp;#x26; UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu bringen.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DarkC's Blog]]></title><description><![CDATA[Development blog for several projects.]]></description><link>https://blog.darkc.at</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 09 Jun 2020 11:58:21 GMT</lastBuildDate><item><title><![CDATA[CSS- & UI-Workshop]]></title><description><![CDATA[Unser Ziel im Verlauf des CSS & UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu…]]></description><link>https://blog.darkc.at/2020-06-04-css-ui-workshop/</link><guid isPermaLink="false">https://blog.darkc.at/2020-06-04-css-ui-workshop/</guid><pubDate>Thu, 04 Jun 2020 08:15:00 GMT</pubDate><content:encoded>&lt;p&gt;Unser Ziel im Verlauf des CSS &amp;#x26; UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu bringen.&lt;/p&gt;
+&lt;p&gt; “Activise” ist eine Applikation, welche als App oder als Website im Browser benutzt werden kann. Ziel ist es, Suchenden/Usern die Möglichkeit zu bieten, auf ihre Interessen abgestimmte Angebote zu finden und alle wichtigen Informationen im Überblick zu erhalten.  Ebenfalls soll die Kontaktaufnahme von Suchenden und Anbietern vereinfacht werden. Die App soll vor allem Personen ansprechen, welche ein neues Hobby suchen oder etwas Neues ausprobieren wollen. Es wird davon ausgegangen, dass diese Nutzergruppe die Website eher unterwegs am Smartphone bedient. Auf der anderen Seite sollen ebenfalls Anbieter, wie Vereine etc. angesprochen werden. Da die Verwaltung der Kurse und die Angabe nötiger Informationen aus Anbietersicht mehrere Eingaben erfordern, wird diese Nutzergruppe die Website eher auf einem Desktop-Gerät bedienen. Dadurch ergeben sich verschiedene Use Cases die auch in dem Design berücksichtigt werden müssen.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d6ff0b5907fed06b3a976f8523ffd173/7bf07/undraw_adventure.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.94594594594594%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACC0lEQVQoz2P4TwFgQOb8/ffv158/EPa/f/8gjN+/f8PZ2DVDpO/fuLVq/jKIyLdv34GCP378+Pjx4/fv3//ADMWp+c65q/sWrH/78RvIFX//ffv27f379x8+fADp//EDu2aIzrfvPqemT/b1b5w+YxuQ++XLl6/fvgIlgew/f37/+Prt57cf/3Bpvv/gZXh0p39wS2n5fKCdnz9/fvzwyZKFa3vbpx3ad+zW6yd3Xzz9/w9DM9CFQPLGzSfhUV1hUT1ZOVP//vpz882rtNpOS4fwoIrm2J6JNYfW3nj56Pf3n/+QDGBA+Pj7z/qybmUNr57KDiBv9f1bkW29/rH5ufMWVRzYXXNs39PPH///+fv123cszv7x+XNrQ4ebW0htVevf//+bl6y0dYqyNvKztwsLy60Jr2o9fes22P9/EZqhOn/8qK7uiY7OnThhVkNDD1Cka8qC9KVLQzMr7S2DLY39bEz879y+D/YjkmaIh2/fuh8emmWo797bM72zYzLQxLuPn9av3+AUlGqi7W5u6t8zdSFyyoFrBpl04MDxrs7pc2YvnT19waJ5y36AY/XZ23dzFq+r75+199jp3/+xJDIGiFnv3n24ePHa5UvXt2zeNW3q/AcPHv/5/ffv7z+ff/86/PIpUMGvH79+/PgJQT9//sKSwoCu+AcGwMQIJIFcEOMPkISKwwFEFwAPQdVBiXIy8AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Adventure&quot;
+        title=&quot;Finde neue Abenteuer&quot;
+        src=&quot;/static/d6ff0b5907fed06b3a976f8523ffd173/fcda8/undraw_adventure.png&quot;
+        srcset=&quot;/static/d6ff0b5907fed06b3a976f8523ffd173/12f09/undraw_adventure.png 148w,
+/static/d6ff0b5907fed06b3a976f8523ffd173/e4a3f/undraw_adventure.png 295w,
+/static/d6ff0b5907fed06b3a976f8523ffd173/fcda8/undraw_adventure.png 590w,
+/static/d6ff0b5907fed06b3a976f8523ffd173/efc66/undraw_adventure.png 885w,
+/static/d6ff0b5907fed06b3a976f8523ffd173/7bf07/undraw_adventure.png 1128w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Identifizierte Probleme&lt;/h2&gt;
 &lt;p&gt;Während der Analyse unserer App hinsichtlich der UI-Prinzipien, sind folgende Probleme aufgetaucht:&lt;/p&gt;
 &lt;ul&gt;
@@ -9,7 +41,7 @@
 &lt;li&gt;Inkonsistentes Styling von Formularen&lt;/li&gt;
 &lt;li&gt;Klickbare Elemente teilweise nicht ersichtlich&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Durch den CSS- &amp;#x26; UI- Workshops wurden Lösungen für die Probleme bezüglich Kontrast, Klickbare Elemente und Mockup erarbeitet und eine Vorher-Nachher Vergleich erstellt.&lt;/p&gt;
+&lt;p&gt;Durch den CSS- &amp;#x26; UI- Workshops wurden Lösungen für die Probleme bezüglich Kontrast, klickbare Elemente und Mockup erarbeitet und eine Vorher-Nachher Vergleich erstellt.&lt;/p&gt;
 &lt;h2&gt;Vorher-Nachher-Studie&lt;/h2&gt;
 &lt;p&gt;Im Zuge des CSS-Workshops nahmen wir gezielt drei Issues aus unserem Issue Board in Angriff.
 In den folgenden Abschnitten wird näher darauf eingegangen, wie wir die Probleme gelöst haben, welche visuellen Verbesserungen im Vergleich zu vorher erreicht wurden und welche Lösungswege wir dahingehend angestrebt haben.&lt;/p&gt;
@@ -623,17 +655,116 @@ In den folgenden Abschnitten wird näher darauf eingegangen, wie wir die Problem
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;User Feedback&lt;/h4&gt;
+&lt;p&gt;Ein erstes kurzes User Testing des neuen Klick-Prototyps hat ergeben, dass es hier noch kleinere Anpassungen der Kontraste im Bereich des neuen Registrier-Formulars benötigt. Sehr positiv wurde das schrittweise Durchführen durch den Registriervorgangs bewertet. Dadurch wurde die Navigation vereinfacht und der User fühlt sich weniger verloren.&lt;/p&gt;
+&lt;p&gt;Der Dark/Light Mode Button in der Navigation wurde als überflüssig bzw. deplatziert kommentiert, da die Systemeinstellungen vom User auf unserer Seite ohnehin übernommen werden. Deshalb haben wir uns dazu entschieden diesen Toggle auf einem weniger prominenten Platz zu platzieren und somit wurde dieser in den Settings auf der User-Profilseite verschoben.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b2a6e5ec18ac79f019ce65fb399993fd/0f98f/mockup_register_after_light_new.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHttCQsf//EABgQAAMBAQAAAAAAAAAAAAAAAAACEhMg/9oACAEBAAEFAs0IUheP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BiP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAEykQAg/9oACAEBAAY/AlEyiZROP//EABgQAAIDAAAAAAAAAAAAAAAAAAEQESBB/9oACAEBAAE/IQCm96NX/9oADAMBAAIAAwAAABAE3//EABYRAAMAAAAAAAAAAAAAAAAAAAARUf/aAAgBAwEBPxBIJD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAACAQQDAAAAAAAAAAAAAAAAETEBEEFhIVHx/9oACAEBAAE/EGGTQ5dPQ8QUyI5NKbf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Registrierseite-Mockup Dark überarbeitet&quot;
+        title=&quot;Registrierseite-Mockup überarbeitet (dunkel)&quot;
+        src=&quot;/static/b2a6e5ec18ac79f019ce65fb399993fd/1c72d/mockup_register_after_light_new.jpg&quot;
+        srcset=&quot;/static/b2a6e5ec18ac79f019ce65fb399993fd/a80bd/mockup_register_after_light_new.jpg 148w,
+/static/b2a6e5ec18ac79f019ce65fb399993fd/1c91a/mockup_register_after_light_new.jpg 295w,
+/static/b2a6e5ec18ac79f019ce65fb399993fd/1c72d/mockup_register_after_light_new.jpg 590w,
+/static/b2a6e5ec18ac79f019ce65fb399993fd/a8a14/mockup_register_after_light_new.jpg 885w,
+/static/b2a6e5ec18ac79f019ce65fb399993fd/fbd2c/mockup_register_after_light_new.jpg 1180w,
+/static/b2a6e5ec18ac79f019ce65fb399993fd/0f98f/mockup_register_after_light_new.jpg 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1d72e7e16381b5080816436e2c642c64/0f98f/mockup_register_after_dark_new.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHlpnRCjj//xAAaEAACAgMAAAAAAAAAAAAAAAAAAgMREhNB/9oACAEBAAEFAnkYzatjjnD/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAykQABAiD/2gAIAQEABj8CK3Ctw9Pj/8QAHBAAAgAHAAAAAAAAAAAAAAAAABABESFBUXHx/9oACAEBAAE/IaeUHSfdwWGC/9oADAMBAAIAAwAAABCH3//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxCIiP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB4QAAIBAwUAAAAAAAAAAAAAAAERACExQVFhgcHw/9oACAEBAAE/EEc5bA5RGqtU8V3BC5wE4knbaIT/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Registrierseite-Mockup Light überarbeitet&quot;
+        title=&quot;Registrierseite-Mockup überarbeitet (hell)&quot;
+        src=&quot;/static/1d72e7e16381b5080816436e2c642c64/1c72d/mockup_register_after_dark_new.jpg&quot;
+        srcset=&quot;/static/1d72e7e16381b5080816436e2c642c64/a80bd/mockup_register_after_dark_new.jpg 148w,
+/static/1d72e7e16381b5080816436e2c642c64/1c91a/mockup_register_after_dark_new.jpg 295w,
+/static/1d72e7e16381b5080816436e2c642c64/1c72d/mockup_register_after_dark_new.jpg 590w,
+/static/1d72e7e16381b5080816436e2c642c64/a8a14/mockup_register_after_dark_new.jpg 885w,
+/static/1d72e7e16381b5080816436e2c642c64/fbd2c/mockup_register_after_dark_new.jpg 1180w,
+/static/1d72e7e16381b5080816436e2c642c64/0f98f/mockup_register_after_dark_new.jpg 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/852b30ed2d5e7ac491529aa6486483bc/0f98f/mockup_profile_after_light_new.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95.94594594594595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1KWtWQsDsAs4P//EABoQAQACAwEAAAAAAAAAAAAAAAIBAwASExT/2gAIAQEAAQUCtoh1+Ocpp0CWp7jCoRUQjwrwmDH/xAAWEQEBAQAAAAAAAAAAAAAAAAARABD/2gAIAQMBAT8BI3//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAACAgEFAQAAAAAAAAAAAAAAAQIRMSMyQUJRkf/aAAgBAQAGPwJxjUX7QtQqVSftDk+Dt8LRTwzaUsH/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMVHRYf/aAAgBAQABPyG4EwMSlPkDmxArhWsI3esJXU9lRUd4JN/bAZ0OCf/aAAwDAQACAAMAAAAQB98A/8QAFxEAAwEAAAAAAAAAAAAAAAAAABFREP/aAAgBAwEBPxBIJN//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAfEAACAgIBBQAAAAAAAAAAAAABEQAhMVFhQXGBkdH/2gAIAQEAAT8QcboIGwR4lJyRIIAj7MpeLdGrjOQmsK7CEIELXmWtyldsML0YudLCYmUjb5m97iv9TGp//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Anbieterseite-Mockup Light überarbeitet&quot;
+        title=&quot;Anbieterseite-Mockup überarbeitet (hell)&quot;
+        src=&quot;/static/852b30ed2d5e7ac491529aa6486483bc/1c72d/mockup_profile_after_light_new.jpg&quot;
+        srcset=&quot;/static/852b30ed2d5e7ac491529aa6486483bc/a80bd/mockup_profile_after_light_new.jpg 148w,
+/static/852b30ed2d5e7ac491529aa6486483bc/1c91a/mockup_profile_after_light_new.jpg 295w,
+/static/852b30ed2d5e7ac491529aa6486483bc/1c72d/mockup_profile_after_light_new.jpg 590w,
+/static/852b30ed2d5e7ac491529aa6486483bc/a8a14/mockup_profile_after_light_new.jpg 885w,
+/static/852b30ed2d5e7ac491529aa6486483bc/fbd2c/mockup_profile_after_light_new.jpg 1180w,
+/static/852b30ed2d5e7ac491529aa6486483bc/0f98f/mockup_profile_after_light_new.jpg 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;UI-Prinzipien&lt;/h2&gt;
 &lt;p&gt;In Bezug auf die vier UI-Prinzipien &lt;strong&gt;“Accessibility”&lt;/strong&gt;, &lt;strong&gt;“Guidance &amp;#x26; Hierarchy“&lt;/strong&gt;,  &lt;strong&gt;“Responsive &amp;#x26; Forgiving”&lt;/strong&gt; und &lt;strong&gt;“Beauty &amp;#x26; Delight”&lt;/strong&gt; konnten wir im Laufe des Workshops auch einige Fortschritte verzeichnen. &lt;/p&gt;
 &lt;p&gt;In Punkto &lt;strong&gt;“Accessibility”&lt;/strong&gt; stellten wir fest, dass beim aktuellen Stand des Prototypen gewisse Features noch nicht vollständig umgesetzt waren, allerdings noch nicht ausreichend als “Work in Progress” für unsere Tester gekennzeichnet waren. Dies sollte dem Nutzer in Zukunft klarer kommuniziert werden. Außerdem führten wir uns erneut vor Augen, in welcher Situation unsere zwei Usergruppen unsere Webanwendung auf welchem Device verwenden würden: Die Desktop-Ansicht ist in erster Linie für Anbieter gedacht, während die Mobil-Ansicht für die aktiven Mitglieder quasi “on the go” verfügbar sein sollte. Für eine bessere Lesbarkeit haben wir in diesem Kontext auch weitere Kontrastanpassungen bei unsere Links und Labels vorgenommen.&lt;/p&gt;
 &lt;p&gt;Hinsichtlich des Punktes &lt;strong&gt;“Guidance &amp;#x26; Hierarchy”&lt;/strong&gt; tauchte bei uns das Problem auf, dass hin und wieder Zurück-Buttons fehlen und dadurch für den User nicht klar ersichtlich ist, dass er wieder zurück navigieren kann. Ansonsten ist für den User klar verständlich, wo er sich gerade befindet, wo er hingehen kann und wo welche Informationen aufgefunden werden. Das wird vor allem dadurch unterstützt, dass wir für gleiche Elemente, wie zum Beispiel Buttons, immer ein konsistentes Design verwenden. Grundsätzlich sind auch ähnliche Seiten (wie die Kurs Detailansicht und die Anbieter Detailansicht) gleich aufgebaut um somit dem User eine Klarheit und Konsistenz in unserer App zu bieten. Auch der Punkt “Hierarchie und Wichtigkeit” wurde beachtet, indem unsere Informationen auf der Kurs-Detailansicht nach der Wichtigkeit für den User gereiht werden. Eher unwichtige Informationen werden somit weiter unten gereiht.&lt;/p&gt;
-&lt;p&gt;Bei unserer Analyse zum nächsten Prinzip &lt;strong&gt;“Responsive &amp;#x26; Forgiving”&lt;/strong&gt; stellten wir fest, das unsere User noch wenig Rückmeldung zum Erfolg eines Bearbeitungs- oder Löschvorgangs erhalten. Deshalb erstellten wir sogleich ein Issue, um sogenannte “Empty States” mit entsprechend aufbereiteten und visuell eindeutig gestalteten Server Responses zu vermeiden. So soll der Status der Webapp für den User zu jeder Zeit nachvollziehbar sein. Es soll dem User auch möglich sein, gewisse Schritte rückgängig zu machen. Eventuelle Sackgassen wollen wir demnach mit “Undo”-Buttons realisieren.&lt;/p&gt;
+&lt;p&gt;Bei unserer Analyse zum nächsten Prinzip &lt;strong&gt;“Responsive &amp;#x26; Forgiving”&lt;/strong&gt; stellten wir fest, dass unsere User noch wenig Rückmeldung zum Erfolg eines Bearbeitungs- oder Löschvorgangs erhalten. Deshalb erstellten wir sogleich ein Issue, um sogenannte “Empty States” zu vermeiden, indem wir entsprechend aufbereitet und visuell eindeutig gestaltete Server Responses einfügen. So soll der Status der Webapp für den User zu jeder Zeit nachvollziehbar sein. Es soll dem User auch möglich sein, gewisse Schritte rückgängig zu machen. Eventuelle Sackgassen wollen wir demnach mit “Undo”-Buttons realisieren.&lt;/p&gt;
 &lt;p&gt;Beim letzten Punkt &lt;strong&gt;“Beauty &amp;#x26; Delight”&lt;/strong&gt; haben wir unseren ersten Prototyp noch einmal komplett überarbeitet und ein großes Augenmerk auf eine einheitliche Farbwahl mit ausreichend Kontrast gelegt. Ein harmonisches Gesamtbild soll im 3. Semester des Masters erreicht werden, wenn das Logo von einer oder einem unserer Kolleginnnen/Kollegen des Partnerstudiengang MMA überarbeitet wird. In Zuge dessen können ebenfalls Änderungen der Typographie für die Überschriften und den Fließtext erfolgen.&lt;/p&gt;
 &lt;h2&gt;Benutzte Technologien hinsichtlich UI&lt;/h2&gt;
 &lt;h3&gt;Ionic Framework&lt;/h3&gt;
-&lt;p&gt;Wir verwenden &lt;a href=&quot;https://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt; als Framework. Dieses bietet bereits fertige &lt;a href=&quot;https://ionicframework.com/docs/components&quot;&gt;UI-Komponenten&lt;/a&gt; welche sich (je nach Endgerät) an das Material bzw. iOS Design orientieren. Zusätzlich bietet das Framework die Möglichkeit Variablen des Themes nach Bedarf zu überschreiben (siehe &lt;a href=&quot;https://ionicframework.com/docs/theming/basics&quot;&gt;Ionic Theming Basics&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Wir verwenden &lt;a href=&quot;https://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt; als Framework. Dieses bietet bereits fertige &lt;a href=&quot;https://ionicframework.com/docs/components&quot;&gt;UI-Komponenten&lt;/a&gt; welche sich (je nach Endgerät) an das Material- bzw. iOS-Design orientieren. Zusätzlich bietet das Framework die Möglichkeit Variablen des Themes nach Bedarf zu überschreiben (siehe &lt;a href=&quot;https://ionicframework.com/docs/theming/basics&quot;&gt;Ionic Theming Basics&lt;/a&gt;).&lt;/p&gt;
 &lt;h3&gt;Ionic Color Creator&lt;/h3&gt;
-&lt;p&gt;Ionic hat neun Standardfarben, mit denen die Farbe vieler Komponenten geändert werden kann. Jede Farbe ist eigentlich eine Sammlung mehrerer Eigenschaften: Base-Color, Kontrast, Farbton und Tönung. Die Basis- und Kontrastfarben erfordern auch eine rgb-Eigenschaft, die dieselbe Farbe ist, nur im rgb-Format. Diese Sammlung kann auf der &lt;a href=&quot;https://ionicframework.com/docs/theming/colors&quot;&gt;Ionic Colors&lt;/a&gt;-Seite mit einen beliebigen HEX-Code genieriert werden.&lt;/p&gt;
+&lt;p&gt;Ionic hat neun Standardfarben, mit denen die Farbe vieler Komponenten geändert werden kann. Jede Farbe ist eigentlich eine Sammlung mehrerer Eigenschaften: Base-Color, Kontrast, Farbton und Tönung. Die Basis- und Kontrastfarben erfordern auch eine RGB-Eigenschaft, die dieselbe Farbe ist, nur im RGB-Format. Diese Sammlung kann auf der &lt;a href=&quot;https://ionicframework.com/docs/theming/colors&quot;&gt;Ionic Colors&lt;/a&gt;-Seite mit einen beliebigen HEX-Code genieriert werden.&lt;/p&gt;
 &lt;p&gt;In unserem Projekt haben wir uns gegen die von Ionic vorgeschlagenen Standardfarben entschieden und diese mit anderen Farbwerten überschrieben (siehe Codebeispiele). &lt;/p&gt;
 &lt;h3&gt;Link Contrast Checker&lt;/h3&gt;
 &lt;p&gt;Der &lt;a href=&quot;https://webaim.org/resources/linkcontrastchecker/&quot;&gt;Link Contrast Checker&lt;/a&gt; von WebAIM erleichtert Designer und Developer einen ausreichenden Kontrast zwischen Hintergrundfarbe und Textfarbe für ihr Projekt zu ermitteln und anzuwenden.&lt;/p&gt;
@@ -672,6 +803,12 @@ In den folgenden Abschnitten wird näher darauf eingegangen, wie wir die Problem
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Ein perfektes UI-Design existiert nicht. Es wird immer Raum für Verbesserungen geben, so auch in diesem Projekt. &lt;/p&gt;
+&lt;h2&gt;Quellen&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://webaim.org/&quot;&gt;https://webaim.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ionicframework.com/docs/theming/colors&quot;&gt;https://ionicframework.com/docs/theming/colors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ionicframework.com/&quot;&gt;https://ionicframework.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.w3.org/WAI/standards-guidelines/wcag/&quot;&gt;https://www.w3.org/WAI/standards-guidelines/wcag/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Activise&lt;/strong&gt; ist das Masterprojekt für den Studiengang MultiMediaTechnology an der Fachhochschule Salzburg von Isabella, Julia, Lisa-Maria und Kevin.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Test post because GitHub and Gatsby do not like empty folders, so here are some cats:]]></description><link>https://blog.darkc.at/2020-05-22-hello-world/</link><guid isPermaLink="false">https://blog.darkc.at/2020-05-22-hello-world/</guid><pubDate>Fri, 22 May 2020 08:23:22 GMT</pubDate><content:encoded>&lt;p&gt;Test post because GitHub and Gatsby do not like empty folders, so here are some cats:&lt;/p&gt;
 &lt;p&gt;&lt;span
