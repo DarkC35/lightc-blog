@@ -8,7 +8,7 @@ isListed: false
 
 Unser Ziel im Verlauf des CSS & UI Workshop war es, die Gestaltung unseres UI für unser Masterprojekt “Activise” auf das nächste Level zu bringen.
 
- “Activise” ist eine Applikation, welche als App oder als Website im Browser benutzt werden kann. Ziel ist es, Suchenden/Usern die Möglichkeit zu bieten, auf ihre Interessen abgestimmte Angebote zu finden und alle wichtigen Informationen im Überblick zu erhalten.  Ebenfalls soll die Kontaktaufnahme von Suchenden und Anbietern vereinfacht werden. Die App soll vor allem Personen ansprechen, welche ein neues Hobby suchen oder etwas Neues ausprobieren wollen. Es wird davon ausgegangen, dass diese Nutzergruppe die Website eher unterwegs am Smartphone bedient. Auf der anderen Seite sollen ebenfalls Anbieter, wie Vereine etc. angesprochen werden. Da die Verwaltung der Kurse und die Angabe nötiger Informationen aus Anbietersicht mehrere Eingaben erfordern, wird diese Nutzergruppe die Website eher auf einem Desktop-Gerät bedienen. Dadurch ergeben sich verschiedene Use Cases die auch in dem Design berücksichtigt werden müssen.
+ “Activise” ist eine Applikation, welche als App auf dem Smartphone oder als Website im Browser benutzt werden kann. Ziel ist es, Suchenden/Usern die Möglichkeit zu bieten, auf ihre Interessen abgestimmte Angebote zu finden und alle wichtigen Informationen im Überblick zu erhalten.  Ebenfalls soll die Kontaktaufnahme von Suchenden und Anbietern vereinfacht werden. Die App soll vor allem Personen ansprechen, welche ein neues Hobby suchen oder etwas Neues ausprobieren wollen. Es wird davon ausgegangen, dass diese Nutzergruppe die Website eher unterwegs am Smartphone bedient. Auf der anderen Seite sollen ebenfalls Anbieter wie Vereine, etc. angesprochen werden. Da die Verwaltung der Kurse und die Angabe nötiger Informationen aus Anbietersicht mehrere Eingaben erfordern, wird diese Nutzergruppe die Website eher auf einem Desktop Gerät bedienen. Dadurch ergeben sich verschiedene Use Cases die auch in dem Design berücksichtigt werden müssen.
 
 ![Adventure](undraw_adventure.png "Finde neue Abenteuer")
 
@@ -16,13 +16,13 @@ Unser Ziel im Verlauf des CSS & UI Workshop war es, die Gestaltung unseres UI f�
 
 Während der Analyse unserer App hinsichtlich der UI-Prinzipien, sind folgende Probleme aufgetaucht:
 * Zu geringe Kontraste im Dark/Light Mode
-* Fehlende Zurück Buttons
+* Fehlende Zurück-Buttons
 * Fehlendes Mockup für Layout
 * Rückmeldungen zu “Serveranfragen” (speichern, löschen) fehlen
 * Inkonsistentes Styling von Formularen
 * Klickbare Elemente teilweise nicht ersichtlich
 
-Durch den CSS- & UI- Workshops wurden Lösungen für die Probleme bezüglich Kontrast, klickbare Elemente und Mockup erarbeitet und eine Vorher-Nachher Vergleich erstellt.
+Im Rahmen des CSS- & UI-Workshops wurden Lösungen für die Probleme bezüglich Kontrast und klickbaren Elementen erarbeitet und das Mockup für ausgewählte Unterseiten erstellt. Die Fortschritte wurden mit Screenshots in einem Vorher-Nachher-Vergleich festgehalten.
 
 ## Vorher-Nachher-Studie
 
@@ -31,7 +31,7 @@ In den folgenden Abschnitten wird näher darauf eingegangen, wie wir die Problem
 
 ### Ausreichende Kontraste Dark/Light Mode
 
-Unsere Analyse ergab, dass die aktuell verwendeten Farben nicht ausreichenden Kontrast bieten. Im Light Mode ist der Kontrast unserer Primärfarbe zu dem hellen Hintergrund nicht ausreichend, im Dark Mode war der Unterschied zwischen weißer Schrift und unserer Primärfarbe zu gering.
+Unsere Analyse ergab, dass die aktuell verwendeten Farben keinen ausreichenden Kontrast bieten. Im Light Mode ist der Kontrast unserer Primärfarbe zu dem hellen Hintergrund nicht ausreichend, im Dark Mode war der Unterschied zwischen weißer Schrift und unserer Primärfarbe zu gering.
 
 Unsere vorherige Kontrastprobleme:
 
@@ -44,11 +44,11 @@ Um die Kontraste in unserer App für den [Dark](https://webaim.org/resources/lin
 
 ![Link-Contrast-Checker Ergebnis mit alten Farben](linkcontrastchecker_before.png "Ergebnis alter Farben mit Link-Contrast-Checker")
 
-Da wir keine einheitliche Primärfarbe für Light und Dark Mode finden konnte, welche ausreichend Kontrast in beiden Modis gewährleistet, haben wir uns für eine Primärfarbe je Modi entschieden. Auf Basis des Link-Contrast-Checker wählten wir ähnliche Farbe, einen [dunkleren](https://webaim.org/resources/linkcontrastchecker/?fcolor=FFFFFF&bcolor=121212&lcolor=31948A) Wert des ursprünglichen Farbbereichs für den Light Mode und einen [helleren](https://webaim.org/resources/linkcontrastchecker/?fcolor=000000&bcolor=FFFFFF&lcolor=28776F) Wert für den Dark Mode, aus, die für die Lesbarkeit besser geeignet sind:
+Da wir keine einheitliche Primärfarbe für Light und Dark Mode finden konnten, welche ausreichend Kontrast in beiden Modis gewährleistet, haben wir uns für eine Primärfarbe je Modus entschieden. Auf Basis des Link-Contrast-Checker wählten wir ähnliche Farben aus dem ursprünglichen Farbbereich, einen [dunkleren](https://webaim.org/resources/linkcontrastchecker/?fcolor=FFFFFF&bcolor=121212&lcolor=31948A) Wert für den Light Mode und einen [helleren](https://webaim.org/resources/linkcontrastchecker/?fcolor=000000&bcolor=FFFFFF&lcolor=28776F) Wert für den Dark Mode, die für die Lesbarkeit besser geeignet sind:
 
 ![Link-Contrast-Checker Ergebnis mit neuen Farben](linkcontrastchecker_after.png "Ergebnis neuer Farben mit Link-Contrast-Checker")
 
-Die Farben in unserer App wurden anschließend mit den neue Farben ausgetauscht. Dafür wurden die Variablen für die Primary Color für den Dark und Light Mode ausgetauscht und mit den [Ionic Color Generator](https://ionicframework.com/docs/theming/colors) die Farbabwandlungen neu generiert:
+Anschließend wurden die Farben in unserer App mit den neue Farben ausgetauscht. Dafür wurden die Variablen für die Primary Color für den Dark und Light Mode ausgetauscht und mit den [Ionic Color Generator](https://ionicframework.com/docs/theming/colors) die Farbabwandlungen neu generiert:
 
 ```css
 :root {
@@ -78,7 +78,7 @@ Die Primary Color wurde dann für die Elemente mit schlechten Kontrast verwendet
 </IonChip>
 ```
 
-Durch die Anpassung der Farben in unsere App, wurde der Kontrast deutlich verbessert:
+Durch die Anpassung der Farben in unserer App wurde der Kontrast deutlich verbessert:
 
 ![Kontrast Detailansicht Light-Mode](contrast_details_after_light.png "Kontrast mit neuen Farben (hell)") | ![Kontrast Detailansicht Dark-Mode](contrast_details_after_dark.png "Kontrast mit neuen Farben (dunkel)")
 :---:|:---:
@@ -87,7 +87,7 @@ Durch die Anpassung der Farben in unsere App, wurde der Kontrast deutlich verbes
 
 ### Hervorhebung von klickbaren Elementen
 
-Ein weiteres Problem, welches aufgetaucht ist, stellt die unzureichende Erkennung der Call-To-Action Elemente dar:
+Ein weiteres Problem stellt die unzureichende Erkennung der Call-To-Action Elemente dar:
 
 ![Fehlende Link-Hervorhebung](clickable_link_before_dark.png "Fehlende Hervorheben für die Verlinkung zur Anbieterseite im Dark-Mode")
 ![Fehlende Link-Hervorhebung Liste](clickable_courses_before_light.png "Fehlende Hervorhebung der klickbaren Kurse auf der Anbieterseite")
@@ -118,7 +118,7 @@ Danach waren die Links besser ersichtlich:
 
 ### Mockup
 
-Unser erster Adobe XD Klick-Prototyp für unser erstes User-Testing im Dezember 2019 war noch auf die pure Funktionalität fokussiert und sollte uns helfen die Customer Needs und Pains zu ermitteln. Deshalb wurden hier weder Farben & Layout, noch Typographie oder andere Faktoren eines Beauty & Delight Ansatzes berücksichtigt.
+Mit unserem ersten Adobe XD Klick-Prototyp für unser User-Testing im Dezember 2019 legten wir zuerst noch den Fokus auf die pure Funktionalität, um die Customer Needs und Pains zu ermitteln. Deshalb wurden hier weder die Farben, die Gestaltung des Layouts, noch die Typographie oder andere Faktoren eines "Beauty & Delight" Ansatzes berücksichtigt.
 
 ![Anbieter-Ansicht-Mockup](mockup_provider_before.jpg "Anbieter-Ansicht-Mockup")
 
@@ -126,23 +126,23 @@ In unserer aktuellen Applikation in Development wurden bereits erste Grundsätze
 
 ![Aktuelle Anbieter-Ansicht](course_after_dark.png "Aktuelle Anbieter-Ansicht")
 
-Das Layout und die genaue Anordnung der Elemente sowie eine einheitliche Form unserer Formulare und Profile wurden bis jetzt noch gar nicht berücksichtigt, da wir zuerst ein grobes Setup und die Auslieferung der Daten realisieren wollten. Im nächsten Schritt legten wir nun Mockups unter berücksichtigung des Beauty & Delight Ansatzes an, auf die in den folgenden Absätzen noch näher eingegangen wird.
+Das Layout und die genaue Anordnung der Elemente sowie eine einheitliche Form unserer Formulare und Profile wurden bis jetzt noch gar nicht berücksichtigt, da wir zuerst ein grobes Setup erstellen und die Auslieferung der Daten realisieren wollten. Im nächsten Schritt legten wir nun Mockups unter Berücksichtigung des "Beauty & Delight" Ansatzes an, auf die in den folgenden Absätzen noch näher eingegangen wird.
 
 #### Profil
 
-Bei der Gestaltung der Profilseite eines Kursanbieters haben wir darauf geachtet, die für den User am relevantesten Infos so zu platzieren, dass sie auf einen Blick erfasst werden können, ohne dass der User von der Masse an Informationen erschlagen wird. Die Kategorien, die wir bereits als farblich hinterlegte Labels von der Übersichtsseite kennen, wurden hier wiederverwendet, um die Konsistenz unserer Webanwendung zu erhöhen. Größere Blöcke an zusammengehörigen Informationen werden auch visuell als solche dargestellt - in diesem Fall die Kontaktdaten der Ansprechperson und die Adresse, die über eine Toggle-Button zu einer Google-Maps-Ansicht wechselt.
+Bei der Gestaltung der Profilseite eines Kursanbieters haben wir darauf geachtet, die für den User am relevantesten Infos so zu platzieren, dass sie auf einen Blick erfasst werden können, ohne dass der User von der Masse an Informationen erschlagen wird. Die Kategorien, die wir bereits als farblich hinterlegte Labels von der Übersichtsseite kennen, wurden hier wiederverwendet, um die Konsistenz unserer Webanwendung zu erhöhen. Größere Blöcke an zusammengehörigen Informationen werden auch visuell als solche dargestellt - in diesem Fall die Kontaktdaten der Ansprechperson und die Adresse, die über einen Toggle-Button zu einer Google-Maps-Ansicht wechselt.
 
 ![Profilseite-Mockup](mockup_profile_after.jpg "Profilseite-Mockup")
 
 #### Formular
 
-Bei dem Registrierformular für den Kursanbieter, der verhältnismäßig mehr Daten angeben muss als der normale Durchschnittsuser,  haben wir uns für ein Multi-Step-Formular mit Visualisierung des Formular-Fortschritts in Form eines Balkens entschieden, um den User besser durch den Ausfüll-Prozess zu führen und um die Usability zu verbessern. Somit weiß der User immer genau, wo er sich gerade befindet und wie viele weitere Steps noch folgen.
+Bei dem Registrierformular für den Kursanbieter, der verhältnismäßig mehr Daten angeben muss als der normale Durchschnittsuser,  haben wir uns für ein Multi-Step-Formular mit Visualisierung des Formular-Fortschritts in Form eines Balkens entschieden, um den User besser durch den Ausfüll-Prozess zu führen und die Usability zu verbessern. Somit weiß der User immer genau, wo er sich gerade befindet und wie viele weitere Steps noch folgen.
 
 ![Registrierseite-Mockup](mockup_register_after.jpg "Registrierseite-Mockup")
 
 #### User Feedback
 
-Ein erstes kurzes User Testing des neuen Klick-Prototyps hat ergeben, dass es hier noch kleinere Anpassungen der Kontraste im Bereich des neuen Registrier-Formulars benötigt. Sehr positiv wurde das schrittweise Durchführen durch den Registriervorgangs bewertet. Dadurch wurde die Navigation vereinfacht und der User fühlt sich weniger verloren.
+Ein erstes kurzes User Testing des neuen Klick-Prototyps hat ergeben, dass es hier noch kleinere Anpassungen der Kontraste im Bereich des neuen Registrier-Formulars benötigt. Sehr positiv wurde das schrittweise Durchführen durch den Registriervorgang bewertet. Dadurch wurde die Navigation vereinfacht und der User fühlt sich weniger verloren.
 
 Der Dark/Light Mode Button in der Navigation wurde als überflüssig bzw. deplatziert kommentiert, da die Systemeinstellungen vom User auf unserer Seite ohnehin übernommen werden. Deshalb haben wir uns dazu entschieden diesen Toggle auf einem weniger prominenten Platz zu platzieren und somit wurde dieser in den Settings auf der User-Profilseite verschoben.
 
@@ -156,9 +156,9 @@ Der Dark/Light Mode Button in der Navigation wurde als überflüssig bzw. deplat
 
 In Bezug auf die vier UI-Prinzipien **“Accessibility”**, **“Guidance & Hierarchy“**,  **“Responsive & Forgiving”** und **“Beauty & Delight”** konnten wir im Laufe des Workshops auch einige Fortschritte verzeichnen. 
 
-In Punkto **“Accessibility”** stellten wir fest, dass beim aktuellen Stand des Prototypen gewisse Features noch nicht vollständig umgesetzt waren, allerdings noch nicht ausreichend als “Work in Progress” für unsere Tester gekennzeichnet waren. Dies sollte dem Nutzer in Zukunft klarer kommuniziert werden. Außerdem führten wir uns erneut vor Augen, in welcher Situation unsere zwei Usergruppen unsere Webanwendung auf welchem Device verwenden würden: Die Desktop-Ansicht ist in erster Linie für Anbieter gedacht, während die Mobil-Ansicht für die aktiven Mitglieder quasi “on the go” verfügbar sein sollte. Für eine bessere Lesbarkeit haben wir in diesem Kontext auch weitere Kontrastanpassungen bei unsere Links und Labels vorgenommen.
+Bezüglich **“Accessibility”** stellten wir fest, dass beim aktuellen Stand des Prototypen gewisse Features noch nicht vollständig umgesetzt waren, allerdings nicht explizit als “Work in Progress” für unsere Tester gekennzeichnet waren. Dies sollte dem Nutzer in Zukunft klarer kommuniziert werden. Außerdem führten wir uns erneut vor Augen, in welcher Situation unsere zwei Usergruppen unsere Webanwendung auf welchem Device verwenden würden: Die Desktop-Ansicht ist in erster Linie für Anbieter gedacht, während die Mobil-Ansicht für die aktiven Mitglieder quasi “on the go” verfügbar sein sollte. Für eine bessere Lesbarkeit haben wir in diesem Kontext auch weitere Kontrastanpassungen bei unseren Links und Labels vorgenommen.
 
-Hinsichtlich des Punktes **“Guidance & Hierarchy”** tauchte bei uns das Problem auf, dass hin und wieder Zurück-Buttons fehlen und dadurch für den User nicht klar ersichtlich ist, dass er wieder zurück navigieren kann. Ansonsten ist für den User klar verständlich, wo er sich gerade befindet, wo er hingehen kann und wo welche Informationen aufgefunden werden. Das wird vor allem dadurch unterstützt, dass wir für gleiche Elemente, wie zum Beispiel Buttons, immer ein konsistentes Design verwenden. Grundsätzlich sind auch ähnliche Seiten (wie die Kurs Detailansicht und die Anbieter Detailansicht) gleich aufgebaut um somit dem User eine Klarheit und Konsistenz in unserer App zu bieten. Auch der Punkt “Hierarchie und Wichtigkeit” wurde beachtet, indem unsere Informationen auf der Kurs-Detailansicht nach der Wichtigkeit für den User gereiht werden. Eher unwichtige Informationen werden somit weiter unten gereiht.
+Hinsichtlich des Punktes **“Guidance & Hierarchy”** tauchte bei uns das Problem auf, dass hin und wieder Zurück-Buttons fehlen und dadurch für den User nicht klar ersichtlich ist, dass er wieder zurück navigieren kann. Ansonsten ist für den User klar verständlich, wo er sich gerade befindet, wo er hingehen kann und wo welche Informationen aufgefunden werden. Das wird vor allem dadurch unterstützt, dass wir für gleiche Elemente, wie zum Beispiel Buttons, immer ein konsistentes Design verwenden. Grundsätzlich sind auch ähnliche Seiten (wie die Kurs Detailansicht und die Anbieter Detailansicht) gleich aufgebaut, um somit dem User eine Klarheit und Konsistenz in unserer App zu bieten. Auch der Punkt “Hierarchie und Wichtigkeit” wurde beachtet, indem unsere Informationen auf der Kurs-Detailansicht nach der Wichtigkeit für den User gereiht werden. Eher unwichtige Informationen werden somit weiter unten gereiht.
 
 Bei unserer Analyse zum nächsten Prinzip **“Responsive & Forgiving”** stellten wir fest, dass unsere User noch wenig Rückmeldung zum Erfolg eines Bearbeitungs- oder Löschvorgangs erhalten. Deshalb erstellten wir sogleich ein Issue, um sogenannte “Empty States” zu vermeiden, indem wir entsprechend aufbereitet und visuell eindeutig gestaltete Server Responses einfügen. So soll der Status der Webapp für den User zu jeder Zeit nachvollziehbar sein. Es soll dem User auch möglich sein, gewisse Schritte rückgängig zu machen. Eventuelle Sackgassen wollen wir demnach mit “Undo”-Buttons realisieren.
 
